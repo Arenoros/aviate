@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/yssdk_setting_search_title" android:key="search_pref">
+        <ListPreference android:entries="@array/safe_search_options" android:title="@string/yssdk_safe_search" android:key="safe_search" android:defaultValue="i" android:entryValues="@array/safe_search_values" />
+        <ListPreference android:entries="@array/search_history_options" android:title="" android:key="search_history" android:defaultValue="on" android:entryValues="@array/search_history_values" />
+        <Preference android:title="@string/yssdk_clear_history_title" android:key="clear_all_search_history" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/yssdk_settings_about" android:key="app_pref">
+        <Preference android:title="Search SDK Version" android:key="search_sdk_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

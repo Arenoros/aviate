@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/background" android:background="@color/onboarding_background_dim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/browser_search_bar_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip">
+        <include layout="@layout/browser_search_bar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/browser_search_bar_suggestions_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/browser_search_bar_footer" />
+        <View android:id="@id/search_bar_shadow" android:background="@drawable/lightbox_header_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/browser_search_bar_shadow_height" />
+    </FrameLayout>
+</LinearLayout>

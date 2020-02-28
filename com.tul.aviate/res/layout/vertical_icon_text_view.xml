@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/icon" style="@style/AppTheme.ActionIcon.Button" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_marginTop="@dimen/m3" style="@style/AppTheme.L1" />
+</merge>

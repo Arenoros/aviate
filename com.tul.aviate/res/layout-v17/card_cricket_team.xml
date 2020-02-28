@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/team_flag" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SportsTeam.team_flag.cricket" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/team_name" android:layout_marginLeft="@dimen/cricket_card_score_over_padding" android:text="Team Name" android:layout_toRightOf="@id/team_flag" android:layout_centerVertical="true" android:layout_toEndOf="@id/team_flag" style="@style/Cards.l1" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="right" android:id="@id/team_over" android:text="169.3 ov" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Cards.l1.CricketOvers" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="left" android:id="@id/team_score" android:layout_marginRight="@dimen/cricket_card_score_over_padding" android:text="699/6" android:layout_toLeftOf="@id/team_over" android:layout_centerVertical="true" android:layout_toStartOf="@id/team_over" style="@style/Cards.l1.CricketRuns" />
+        <ImageView android:id="@id/team_status" android:visibility="invisible" android:layout_marginRight="@dimen/cricket_card_score_over_padding" android:src="@drawable/sports_team_current" android:layout_toLeftOf="@id/team_score" android:layout_centerVertical="true" android:layout_toStartOf="@id/team_score" style="@style/SportsTeamActionIcon" />
+    </RelativeLayout>
+</merge>

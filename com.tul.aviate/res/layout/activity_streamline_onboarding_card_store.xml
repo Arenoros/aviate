@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/title" android:paddingLeft="@dimen/onboarding_title_padding_left_right" android:paddingRight="@dimen/onboarding_title_padding_left_right" android:layout_marginTop="40.0dip" style="@style/OnboardingTitle" />
+    <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/subtitle" android:paddingLeft="@dimen/onboarding_title_padding_left_right" android:paddingRight="@dimen/onboarding_title_padding_left_right" android:layout_marginBottom="20.0dip" style="@style/OnboardingSubtitle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.85" />
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/button" android:text="@string/onboarding_button_next" style="@style/OnboardingButton" />
+</LinearLayout>

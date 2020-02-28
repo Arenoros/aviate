@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.yahoo.android.wallpaper_picker.ui.ZoomImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.widget.Toolbar android:textColorSecondary="@color/solid_white" android:id="@id/toolbar" android:background="#c82d2d2d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:titleTextColor="@android:color/white">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/tb_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bwp_set_wallpaper" android:maxLines="1" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            <TextView android:textColor="#46ffffff" android:id="@id/tb_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/rv_tiles" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

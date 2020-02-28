@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.aviate.android.ui.view.CardHeaderView android:id="@id/venue_chooser_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/divider" />
+    <com.yahoo.aviate.android.ui.view.CardContainerListView android:id="@id/venue_choices_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/venue_chooser_footer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

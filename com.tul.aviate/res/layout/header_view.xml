@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_hero_image_height" android:scaleType="centerCrop" />
+    <View android:id="@id/image_shadow" android:background="@drawable/gradient_image_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_hero_image_height" />
+    <RelativeLayout android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/card_header_vertical_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/card_header_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/background_image" android:layout_alignParentLeft="true">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/title" android:visibility="gone" style="@style/Cards.h1" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/subtitle" android:visibility="gone" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:includeFontPadding="false" android:layout_below="@id/title" style="@style/Cards.l2" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/attribution" android:visibility="gone" android:layout_alignBaseline="@id/title" android:layout_alignParentRight="true" style="@style/AppTheme.Attribution" />
+    </RelativeLayout>
+    <com.yahoo.aviate.android.ui.view.CardSettingsButton android:id="@id/settings_button" android:src="@drawable/card_action_settings" android:tint="@color/cardDark40" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/AppTheme.CardSettingsButton" />
+</merge>

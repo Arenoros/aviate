@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:background="@drawable/clickable_row_bg" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/standard_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="@dimen/cards_content_padding" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="16.0sp" android:textColor="@color/medium" android:layout_gravity="start|center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

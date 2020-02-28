@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/music_artist_card_loading" android:background="?baseBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Aviate.Card.Space" />
+    <LinearLayout android:orientation="vertical" android:id="@id/artist_content_container" android:background="@drawable/card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.CardHeaderView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/play_tracks_container" android:paddingTop="@dimen/card_basic_padding" android:paddingBottom="@dimen/card_basic_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:layout_width="@dimen/action_icon_size" android:layout_height="@dimen/action_icon_size" android:layout_marginLeft="@dimen/cards_content_padding" android:src="@drawable/action_play" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/play_tracks_text" android:paddingLeft="@dimen/cards_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/artist_info_top_tracks" style="@style/Cards.l1" />
+        </LinearLayout>
+        <View android:id="@id/play_tracks_divider" style="@style/CardContentDivider" />
+        <RelativeLayout android:id="@id/nearby_events_container" android:paddingTop="@dimen/card_basic_padding" android:paddingBottom="@dimen/card_basic_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/soundkick_icon" android:layout_width="@dimen/action_icon_size" android:layout_height="@dimen/action_icon_size" android:layout_marginLeft="@dimen/cards_content_padding" android:src="@drawable/brand_songkick" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/nearby_event_name" android:paddingLeft="@dimen/cards_content_padding" android:maxLines="1" android:layout_toRightOf="@id/soundkick_icon" android:layout_alignParentTop="true" style="@style/AppTheme.L1" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/nearby_event_description" android:paddingLeft="@dimen/cards_content_padding" android:maxLines="1" android:layout_below="@id/nearby_event_name" android:layout_alignLeft="@id/nearby_event_name" style="@style/AppTheme.L2" />
+        </RelativeLayout>
+        <View android:id="@id/nearby_events_divider" android:visibility="gone" style="@style/CardContentDivider" />
+        <LinearLayout android:orientation="vertical" android:id="@id/expanded_artist_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:gravity="left" android:layout_gravity="center" android:id="@id/artist_bio_wikipedia_text" android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" style="@style/AppTheme.BodyText" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="left" android:id="@id/artist_bio_read_more" android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/l2_below_l2_top_margin" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/cards_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wikipedia_link" style="@style/AppTheme.Link" />
+            <com.yahoo.aviate.android.ui.CardContentPagerView android:id="@id/tweets_pager_view" android:paddingTop="0.0dip" android:paddingBottom="@dimen/cards_content_padding" style="@style/AppTheme.CarouselContent" />
+        </LinearLayout>
+        <com.yahoo.aviate.android.ui.view.CardFooterSwitcherView android:id="@id/artist_info_footer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

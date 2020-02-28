@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yssdk_locale_defaultSafeSearchSetting">i</string>
+    <string name="yssdk_locale_searchHostURL">ru-RU</string>
+    <string name="yssdk_locale_searchIntlString">ru</string>
+    <string name="yssdk_locale_voiceSearchLocale">ru_RU</string>
+</resources>

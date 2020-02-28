@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="@dimen/omni_search_bar_height" android:contentDescription="@string/search_bar" style="@style/Aviate.SearchBarRectangle">
+        <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/action_search" android:layout_width="@dimen/action_icon_size" android:layout_height="@dimen/action_icon_size" style="@style/Aviate.SearchBarIcon" />
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="?omni_bar_text_color" android:gravity="center_vertical" android:id="@id/search_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/aviate_search_hint" android:layout_weight="1.0" style="@style/Cards.l1" />
+        <ImageView android:id="@id/hamburger" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/omnisearch_hamburger" android:contentDescription="@string/focus_menu" />
+        <com.yahoo.streamline.ui.StreamlineNotificationView android:gravity="center_vertical" android:id="@id/notification_view" android:visibility="gone" android:layout_width="@dimen/streamline_searchbar_notification_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/streamline_searchbar_notification_margin" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/below_search_bar_container" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dropdown_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/dropdown_list" android:background="@drawable/omni_search_dropdown_bg" android:paddingTop="2.0px" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/omnisearch_divider" android:dividerHeight="2.0px" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/focus_menu_card_onboarding_tip" android:paddingRight="0.0dip" android:visibility="gone" style="@style/TourTip">
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/focus_menu_card_onboarding_tip_text" android:paddingRight="@dimen/card_basic_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TourTipText" />
+            <ImageView android:id="@id/dismiss_image_view" android:background="@drawable/clickable_bg" android:layout_width="@dimen/onboarding_tip_check_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_basic_padding" android:src="@drawable/check_white_circled" android:scaleType="centerInside" />
+        </LinearLayout>
+        <com.yahoo.aviate.android.raviate.view.RaviatePanel android:id="@id/rate_panel" android:visibility="gone" style="@style/RatePanel" />
+    </FrameLayout>
+</merge>

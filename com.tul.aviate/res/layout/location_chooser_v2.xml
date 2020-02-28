@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?spaceCardBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/location_chooser_header" layout="@layout/simple_header" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ListView android:id="@id/locations_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:divider="@drawable/card_item_divider_vertical" android:dividerHeight="1.0px" />
+            <include android:id="@id/location_chooser_loading" layout="@layout/location_chooser_loading" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="12.0sp" android:textColor="?locationChooserFooterText" android:gravity="center" android:layout_gravity="center" android:background="?locationChooserFooterBackground" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/powered_by_foursquare" aviate:customFont="GothamSSm-Light.otf" aviate:borderTopColor="@color/aviateFooterBorderColor" aviate:borderTopWidth="@dimen/pixel1" />
+</LinearLayout>

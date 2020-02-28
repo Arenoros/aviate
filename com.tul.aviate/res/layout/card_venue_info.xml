@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.yahoo.aviate.android.cards.VenueInfoCardView$MultiImageCardHeaderView" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/venue_actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.VerticalIconTextView android:id="@id/venue_action_call" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:id="@id/venue_actions_divider" android:background="@color/dark" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cards_content_padding" android:layout_marginBottom="@dimen/cards_content_padding" />
+        <com.yahoo.aviate.android.ui.view.VerticalIconTextView android:id="@id/venue_action_directions" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:id="@id/actions_rating_divider" layout="@layout/divider" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/yelp_ratings_container" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/standard_row_height" android:weightSum="1.0">
+        <com.yahoo.aviate.android.ui.YelpStarView android:layout_gravity="center" android:id="@id/yelp_rating_stars" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_marginRight="30.0dip" android:layout_weight="0.5" />
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="15.0sp" android:textColor="@color/cardDark50" android:gravity="center" android:layout_gravity="center" android:id="@id/yelp_num_reviews" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="0.5" aviate:customFont="GothamNarrSSm-Medium.otf" />
+        <ImageView android:layout_gravity="center" android:id="@id/yelp_logo" android:layout_width="wrap_content" android:layout_height="25.0dip" android:src="@drawable/yelp_logo" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <include android:id="@id/rating_tips_divider" layout="@layout/divider" />
+    <com.yahoo.aviate.android.ui.CardContentPagerView android:id="@id/tips_pager_view" android:paddingTop="@dimen/cards_content_padding" style="@style/AppTheme.CarouselContent" />
+    <com.yahoo.aviate.android.ui.CardContentPagerView android:id="@id/tweets_pager_view" style="@style/AppTheme.CarouselContent" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/venue_info_footer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

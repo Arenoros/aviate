@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/event_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cards_content_padding" style="@style/Timeline.Caption" />
+    <TextView android:gravity="center_vertical" android:id="@id/event_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="76.0dip" android:lines="1" style="@style/Timeline.Body" />
+</FrameLayout>

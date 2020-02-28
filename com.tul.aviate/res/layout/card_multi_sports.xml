@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.CardHeaderView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/divider" layout="@layout/divider" />
+        <LinearLayout android:orientation="vertical" android:id="@id/single_card_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.yahoo.aviate.android.ui.view.CardViewPager android:id="@id/view_pager" style="@style/AppTheme.Carousel" />
+    </LinearLayout>
+</merge>

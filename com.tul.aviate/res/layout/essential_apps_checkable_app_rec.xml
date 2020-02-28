@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.aviate.android.ui.view.CheckableAppRecView android:textAppearance="@style/AllAppsNameLabelText" android:textSize="12.0sp" android:textColor="?appViewTextColor" android:gravity="center|top" android:padding="@dimen/app_view_padding" android:layout_width="wrap_content" android:layout_height="98.0dip" android:maxLines="2" android:hapticFeedbackEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

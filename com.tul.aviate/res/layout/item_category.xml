@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/solid_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_thumbnail" android:layout_width="fill_parent" android:layout_height="300.0dip" android:scaleType="centerCrop" />
+    <View android:id="@id/gradient_overlay" android:background="@drawable/vertical_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/solid_white" android:layout_gravity="bottom" android:id="@id/tv_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="10.0dip" />
+</FrameLayout>

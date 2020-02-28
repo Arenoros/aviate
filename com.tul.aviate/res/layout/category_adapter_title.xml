@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="20.0dip" android:textColor="@android:color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:text="Follow your favorite news feeds" aviate:customFont="GothamSSm-Book.otf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto" />

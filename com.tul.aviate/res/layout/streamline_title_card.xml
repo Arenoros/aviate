@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/broadway_minicard_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/side_highlight" android:background="@color/streamline_toolbar_background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    <TextView android:textStyle="normal" android:id="@id/title" android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="3" style="@style/Timeline.Title" />
+</FrameLayout>

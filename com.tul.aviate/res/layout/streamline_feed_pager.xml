@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/streamline_feed_pager_header" />
+    <com.yahoo.aviate.android.ui.view.CardViewPager android:id="@id/view_pager" android:paddingLeft="60.0dip" android:paddingBottom="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/streamline_feed_footer" />
+    <include layout="@layout/streamline_feed_bottom_padding" />
+</LinearLayout>

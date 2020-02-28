@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s，%2$d 個通知</item>
+        <item quantity="one">%1$s，%2$d 個通知</item>
+        <item quantity="two">%1$s，%2$d 個通知</item>
+        <item quantity="few">%1$s，%2$d 個通知</item>
+        <item quantity="many">%1$s，%2$d 個通知</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">您已經安裝了 %d 個新應用程式</item>
+        <item quantity="one">您已經安裝了 %d 個新應用程式</item>
+        <item quantity="few">您已經安裝了 %d 個新應用程式</item>
+        <item quantity="many">您已經安裝了 %d 個新應用程式</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">安裝 %d 個應用程式</item>
+        <item quantity="one">安裝 %d 個應用程式</item>
+        <item quantity="few">安裝 %d 個應用程式</item>
+        <item quantity="many">安裝 %d 個應用程式</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+        <item quantity="few">%d 天</item>
+        <item quantity="many">%d 天</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+        <item quantity="few">%d 小時</item>
+        <item quantity="many">%d 小時</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+        <item quantity="few">%d 分鐘</item>
+        <item quantity="many">%d 分鐘</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+        <item quantity="few">%d 秒</item>
+        <item quantity="many">%d 秒</item>
+    </plurals>
+</resources>

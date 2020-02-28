@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_options">
+        <item>@string/yssdk_safesearch_strict</item>
+        <item>@string/yssdk_safesearch_moderate</item>
+    </string-array>
+    <string-array name="safe_search_values">
+        <item>r</item>
+        <item>i</item>
+    </string-array>
+</resources>

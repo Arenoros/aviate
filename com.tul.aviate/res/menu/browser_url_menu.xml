@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/copy_link" android:title="@string/aviate_browser_copy_link" />
+    <item android:id="@id/open_in_browser" android:title="@string/aviate_browser_open_in_browser" />
+    <item android:id="@id/share_link" android:title="@string/aviate_browser_share" />
+</menu>

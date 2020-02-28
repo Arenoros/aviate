@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_button_wrapper" android:background="@color/fuji_grey2" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bottom_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+    <TextView android:textSize="@dimen/fuji_swipelayout_button_text_size_default" android:textColor="@color/black" android:id="@id/bottom_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

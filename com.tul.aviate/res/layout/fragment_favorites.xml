@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:paddingTop="@dimen/nav2_header_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.dragdrop.DropTargetFrameLayout android:id="@id/main_drop_target" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/favorites_dock">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tul.aviator.ui.view.editmode.EditableLinearLayout android:id="@id/cards_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/home_screen" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/people_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/people_indicator" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </com.tul.aviator.ui.view.dragdrop.DropTargetFrameLayout>
+    <com.tul.aviator.ui.view.FavoritesDockRow android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/favorites_dock" android:background="?favoritesDockBackground" android:paddingLeft="?marginHgutter" android:paddingTop="?marginVgutter" android:paddingRight="?marginHgutter" android:paddingBottom="?marginVgutter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" aviate:borderBottomWidth="0.0dip" style="@style/Aviate.Card" />
+    <FrameLayout android:id="@id/favorites_dock_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="?marginVgutter" android:layout_alignParentBottom="true" />
+</RelativeLayout>

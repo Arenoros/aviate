@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_send" android:orderInCategory="100" android:title="@string/yssdk_local_share" android:showAsAction="never" />
+    <item android:id="@id/menu_copy" android:orderInCategory="100" android:title="@string/yssdk_menu_copy" android:showAsAction="never" />
+    <item android:id="@id/menu_open" android:orderInCategory="100" android:title="@string/yssdk_menu_open" android:showAsAction="never" />
+</menu>

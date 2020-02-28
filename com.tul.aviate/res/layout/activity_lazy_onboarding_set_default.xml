@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lazy_onboarding_set_default_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/lazy_onboarding_welcome_dim_overlay" android:background="#88000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/lazy_onboarding_set_default_layout" layout="@layout/activity_onboarding_set_default" />
+</FrameLayout>

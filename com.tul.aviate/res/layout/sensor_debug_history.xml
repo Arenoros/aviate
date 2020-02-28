@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/sensor_debug_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/sensor_debug_vert">
+        <LinearLayout style="@style/sensor_debug_horz_centered">
+            <Button android:id="@id/sensor_history_export" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Export All as TSV" />
+            <Button android:id="@id/sensor_history_delete_exported" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete Exported Files" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/sensor_history_progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <LinearLayout style="@style/sensor_debug_vert">
+            <LinearLayout style="@style/sensor_debug_horz_centered">
+                <CheckBox android:textColor="@color/sensor_debug_label" android:id="@id/sensor_debug_locparams_show_unchanged" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="Show unchanged" />
+                <CheckBox android:textColor="@color/sensor_debug_label" android:id="@id/sensor_debug_locparams_show_created_only" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="Show Created Only" />
+            </LinearLayout>
+        </LinearLayout>
+        <Spinner android:id="@id/sensor_debug_history_eventtype" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" />
+        <TableLayout android:id="@id/sensor_history_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="2,3,4,5,6,7,8,9" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:button="http://schemas.android.com/apk/res-auto">
+    <com.usebutton.sdk.ButtonDropin android:id="@id/test_dropin" android:layout_width="fill_parent" android:layout_height="60.0dip" button:btn_buttonId="test-placement" button:btn_paddingBottom="10.0dip" button:btn_paddingLeft="5.0dip" button:btn_paddingRight="20.0dip" button:btn_paddingTop="15.0dip" />
+    <com.usebutton.sdk.ButtonDropin android:id="@id/test_dropin_tag" android:tag="button:buttonId=test-placement" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+</LinearLayout>

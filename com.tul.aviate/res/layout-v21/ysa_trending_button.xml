@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="@dimen/trending_button_text_size" android:background="@drawable/trending_button_background" android:padding="@dimen/trending_button_padding" android:layout_width="wrap_content" android:layout_height="@dimen/trending_button_min_height" android:minWidth="0.0dip" android:minHeight="@dimen/trending_button_min_height" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:elevation="@dimen/trending_button_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

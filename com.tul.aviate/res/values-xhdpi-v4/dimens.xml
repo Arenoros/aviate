@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboarding_title_padding_left_right">27.0dip</dimen>
+    <dimen name="quick_action_card_text_size">16.0sp</dimen>
+    <dimen name="add_favorite_contact_text_size">20.0sp</dimen>
+    <dimen name="onboarding_set_default_bottom_margin">30.0dip</dimen>
+    <dimen name="onboarding_set_default_top_margin">60.0dip</dimen>
+    <dimen name="onboarding_tip_check_width">70.0dip</dimen>
+    <dimen name="onboarding_tour_text_margin">50.0dip</dimen>
+    <dimen name="onboarding_button_padding">22.0dip</dimen>
+    <dimen name="onboarding_tour_subtitle_margin">15.0dip</dimen>
+    <dimen name="cricket_score_over_text_size">15.0sp</dimen>
+    <dimen name="cricket_score_runs_text_size">17.0sp</dimen>
+    <dimen name="cricket_score_title_text_size">14.0sp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_not_available">%1$s est temporairement indisponible.</string>
+    <string name="cancel">Annuler</string>
+    <string name="copy_message_error_toast">Erreur lors de la copie du texte dans le Presse-papiers.</string>
+    <string name="copy_message_success_toast">Texte du message copié dans le Presse-papiers.</string>
+    <string name="date_format_month_day">d MMM</string>
+    <string name="date_format_month_day_year">d/M/yy</string>
+    <string name="date_time_format_long">"E j MMM aaaa 'à' h:mm a"</string>
+    <string name="date_time_format_long_24">"E j MMM aaaa 'à' k:mm"</string>
+    <string name="date_time_format_short">"d/M/yy, k'h'mm"</string>
+    <string name="date_time_format_short_24">M/d/yy k:mm</string>
+    <string name="day_1">%1$d jour</string>
+    <string name="day_n">%1$d jours</string>
+    <string name="download_app">%1$s n’est pas installé sur ce mobile. Voulez-vous installer %2$s maintenant ?</string>
+    <string name="download_app_generic_partner">%1$s n’est pas installé sur votre mobile. Rendez-vous sur votre place de marché préférée pour l’installer.</string>
+    <string name="duration_format_hours">"h 'heures', m 'minutes', s 'secondes'"</string>
+    <string name="duration_format_minutes">"m 'minutes', s 'secondes'"</string>
+    <string name="duration_format_seconds">"s 'secondes'"</string>
+    <string name="edit">Modifier</string>
+    <string name="hr_1">%1$d heure</string>
+    <string name="hr_n">%1$d heures</string>
+    <string name="loading">Chargement…</string>
+    <string name="min_1">%1$d minutes</string>
+    <string name="min_n">%1$d minutes</string>
+    <string name="month_1">%1$d Mo</string>
+    <string name="month_n">%1$d Mo</string>
+    <string name="no">Non</string>
+    <string name="no_google_play_dialog_message">Google Play n’est pas installé sur votre appareil. Installez-le avant toute chose.</string>
+    <string name="no_google_play_dialog_title">Google Play n’est pas installé</string>
+    <string name="no_handling_application_toast">Impossible de trouver une application pouvant effectuer cette opération</string>
+    <string name="ok">OK</string>
+    <string name="photo_operation_choose_photo_text">Choisir une photo existante</string>
+    <string name="photo_operation_take_photo_text">Prendre une photo</string>
+    <string name="photo_operation_take_video_text">Enregistrer une vidéo</string>
+    <string name="sec_1">%1$d sec.</string>
+    <string name="sec_n">%1$d sec.</string>
+    <string name="short_time_format">"k'h'mm"</string>
+    <string name="year_1">%1$d année</string>
+    <string name="year_n">%1$d années</string>
+    <string name="yes">Oui</string>
+    <string name="yssdk_locale_defaultSafeSearchSetting">i</string>
+    <string name="yssdk_locale_searchHostURL">fr-CH</string>
+    <string name="yssdk_locale_searchIntlString">ch</string>
+    <string name="yssdk_locale_voiceSearchLocale">fr_FR</string>
+</resources>

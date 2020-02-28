@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="?agendaCalendarBackground" style="@style/Aviate.RowSimple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/color_swatch" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="2.0dip" android:layout_alignTop="@id/text_container" android:layout_alignBottom="@id/text_container" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ColorBlock1" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/check" android:layout_toRightOf="@id/color_swatch" android:layout_centerVertical="true">
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/name" style="@style/Aviate.CalendarPicker.ItemPrimary" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/acct_name" style="@style/Aviate.CalendarPicker.ItemSecondary" />
+    </LinearLayout>
+    <ImageView android:id="@id/check" android:background="@drawable/circle_bg_fuji_green" android:layout_marginLeft="10.0dip" android:src="@drawable/check_white" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Aviate.RowSimpleIcon" />
+</RelativeLayout>

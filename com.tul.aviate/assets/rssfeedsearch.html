@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    // This script uses an object set from the Java environment named javaCallback
+    // to handle all interactions between the outside Java world and the Javascript inner world.
+
+    google.load("feeds", "1");
+
+    function onLoaded() {
+      google.feeds.findFeeds(javaCallback.getQueryText(), onResult);
+    }
+
+    function onResult(result) {
+      // Make sure we didn't get an error.
+      if (!result || result.error) {
+        // Inform Java
+        javaCallback.onError(!result ? "null result object" : result.error.message);
+      } else {
+        // Loop through the results and print them on the page, for sanity while prototyping.
+        var content = document.getElementById('content');
+        for (var i = 0; i < result.entries.length; i++) {
+          var entry = result.entries[i];
+          var p = document.createElement('p');
+          var a = document.createElement('a');
+          // this function is a Javascript closure, so that the "entry.url" var is preserved as it is now
+          a.onclick = function() {
+            var url = entry.url;
+            return function() {
+              previewFeedInDiv(url, 'preview');
+              return false; // prevents the <a> link from actually navigating
+            };
+          }(); // Invoke itself to get the inner function with private var set up
+          a.innerHTML = entry.title;
+          a.href = entry.url;
+
+          content.appendChild(p);
+          p.appendChild(a);
+        }
+
+        // Loop through the results and pass them back to Java
+        javaCallback.onResult(JSON.stringify(result.entries));
+      }
+    }
+
+    function previewFeedInDiv(rssUrl, divName) {
+      var feed = new google.feeds.Feed(rssUrl);
+      feed.load(function(result) {
+        if (!result.error) {
+          var container = document.getElementById(divName);
+          container.innerHTML = ''; // Remove all existing nodes
+          container.appendChild(document.createTextNode(rssUrl));
+          var list = document.createElement('ul');
+          container.appendChild(list);
+
+          for (var i = 0; i < result.feed.entries.length; i++) {
+            var entry = result.feed.entries[i];
+            var elem = document.createElement("li");
+            elem.appendChild(document.createTextNode(entry.title));
+            list.appendChild(elem);
+          }
+        }
+      });
+    }
+    google.setOnLoadCallback(onLoaded);
+    </script>
+  </head>
+  <body>
+    <h1>Javascript Test Page</h1>
+    <div id="content"></div>
+    <div id="preview"></div>
+  </body>
+</html>
+

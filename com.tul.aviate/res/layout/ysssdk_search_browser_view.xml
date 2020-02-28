@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.mobile.client.share.search.ui.SearchBrowserWebView android:id="@id/search_browser_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.yahoo.mobile.client.share.search.ui.view.YProgressBar android:id="@id/web_progress_spinner" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentTop="true" />
+    <FrameLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/footer_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_preview_footer_height">
+        <include layout="@layout/yssdk_preview_footer" />
+    </FrameLayout>
+</FrameLayout>

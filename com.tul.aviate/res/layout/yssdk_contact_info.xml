@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/contact_icon" android:background="@drawable/yssdk_container_item_stateful" android:layout_width="@dimen/yssdk_contact_container_width" android:layout_height="@dimen/yssdk_contact_icon_height" android:scaleType="centerCrop" />
+    <TextView android:textColor="@color/yssdk_grey_1000" android:gravity="center" android:id="@id/contact_name" android:layout_width="@dimen/yssdk_contact_container_width" android:layout_height="@dimen/yssdk_contact_name_height" android:maxLength="8" />
+</LinearLayout>

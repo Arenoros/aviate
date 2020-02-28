@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/apps_row" android:paddingTop="16.0dip" android:paddingRight="@dimen/m" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" />
+    <View android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/bottom_divider" android:background="?sectionDividerColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/m" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/m3" android:layout_marginBottom="4.0dip" />
+</LinearLayout>

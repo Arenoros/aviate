@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/streamline_thumbnail_card_padding" android:paddingRight="@dimen/streamline_thumbnail_card_padding" android:paddingBottom="@dimen/streamline_thumbnail_card_padding" android:layout_width="0.0dip" android:layout_height="@dimen/streamline_main_thumbnail_size" android:layout_weight="1.0">
+        <TextView android:textStyle="normal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Timeline.Title" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/timestamp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Timeline.Caption" />
+    </LinearLayout>
+    <ImageView android:id="@id/image_view" android:layout_width="@dimen/streamline_main_thumbnail_size" android:layout_height="@dimen/streamline_main_thumbnail_size" android:scaleType="centerCrop" />
+</LinearLayout>

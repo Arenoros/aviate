@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/framelayout" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:background="@drawable/yssdk_local_list_item_row_one_round_bg" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" layout="@layout/yssdk_result_generic_error_message" />
+    <include android:background="@drawable/yssdk_local_list_item_row_one_round_bg" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" layout="@layout/yssdk_result_process_error_message" />
+    <ListView android:layout_gravity="center" android:id="@id/local_list" android:background="@null" android:paddingTop="10.0dip" android:scrollbars="none" android:clickable="true" android:clipToPadding="false" android:animationCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/yssdk_local_list_border" android:dividerHeight="1.0dip" android:overScrollFooter="@null" />
+</FrameLayout>

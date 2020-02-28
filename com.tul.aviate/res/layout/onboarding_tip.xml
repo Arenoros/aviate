@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/TourTip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TourTipText" />
+    <ImageView android:id="@id/button" android:background="@drawable/clickable_bg" android:layout_width="@dimen/onboarding_tip_check_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboarding_tip_text_margin" android:src="@drawable/check_white_circled" android:scaleType="centerInside" />
+</LinearLayout>

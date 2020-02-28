@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/lightGray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:theme="@style/NarwhalActionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <ImageView android:layout_gravity="center|right" android:id="@id/search_header_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/narwhal_search_icon" android:tint="@color/black" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/footer" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/progress_layout" android:background="#ffb8defe" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/progress_bar" android:background="#ff188fff" android:layout_width="0.0dip" android:layout_height="6.0dip" />
+        </FrameLayout>
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="#ff333333" android:gravity="center" android:id="@id/progress_text" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Select 3 or more sources" aviate:customFont="GothamSSm-Book.otf" style="@style/OnboardingButton" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/next_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="DONE" style="@style/OnboardingButton" />
+    </LinearLayout>
+</LinearLayout>

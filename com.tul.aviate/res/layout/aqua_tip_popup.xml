@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.AviateTextView android:layout_gravity="center|left" android:id="@id/title" android:background="@drawable/tip_rounded_bg" android:paddingLeft="@dimen/aqua_tip_horizontal_padding" android:paddingTop="@dimen/aqua_tip_vertical_padding" android:paddingRight="@dimen/aqua_tip_horizontal_padding" android:paddingBottom="@dimen/aqua_tip_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="0.75" style="@style/TourTipText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_alignParentTop="true" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/cards_content_padding" android:layout_marginBottom="0.0dip" android:text="@string/top_10_nba_title" android:layout_below="@id/video_thumbnail" android:textAllCaps="true" style="@style/AppTheme.L2" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cards_content_padding" android:layout_marginRight="@dimen/cards_content_padding" android:layout_marginBottom="@dimen/cards_content_padding" android:text="@string/top_10_nba_prompt" android:layout_below="@id/title" style="@style/Cards.l1" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/sounds_good_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/description" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/dont_show_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sounds_good_button" />
+</RelativeLayout>

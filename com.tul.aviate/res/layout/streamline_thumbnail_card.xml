@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.streamline.ui.cards.StreamlineBaseCardView android:id="@id/timeline_card_base" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageView android:id="@id/thumbnail_image" android:layout_width="@dimen/streamline_thumbnail_card_size" android:layout_height="@dimen/streamline_thumbnail_card_size" android:layout_marginTop="@dimen/streamline_thumbnail_card_padding" android:layout_marginRight="@dimen/streamline_thumbnail_card_padding" android:layout_marginBottom="@dimen/streamline_thumbnail_card_padding" />
+</LinearLayout>

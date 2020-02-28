@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s, %2$d notifications</item>
+        <item quantity="one">%1$s, %2$d notification</item>
+        <item quantity="two">%1$s, %2$d notifications</item>
+        <item quantity="few">%1$s, %2$d notifications</item>
+        <item quantity="many">%1$s, %2$d notifications</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">Vous avez installé %d nouvelles applications</item>
+        <item quantity="one">Vous avez installé %d nouvelle application</item>
+        <item quantity="few">Vous avez installé %d nouvelles applications</item>
+        <item quantity="many">Vous avez installé %d nouvelles applications</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">Installer %d applications</item>
+        <item quantity="one">Installer %d application</item>
+        <item quantity="few">Installer %d applications</item>
+        <item quantity="many">Installer %d applications</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+        <item quantity="few">%d jours</item>
+        <item quantity="many">%d jours</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+        <item quantity="few">%d heures</item>
+        <item quantity="many">%d heures</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">%d seconde</item>
+        <item quantity="few">%d secondes</item>
+        <item quantity="many">%d secondes</item>
+    </plurals>
+</resources>

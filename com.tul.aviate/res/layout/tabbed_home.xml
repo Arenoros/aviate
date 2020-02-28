@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.dragdrop.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.yahoo.aviate.android.aqua.AquaLayer android:id="@id/aqua_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tul.aviator.ui.view.AviateDrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/wallpaper_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <ImageView android:id="@id/tab_gradient" android:background="?tabGradient" android:layout_width="fill_parent" android:layout_height="@dimen/nav2_gradient_height" android:scaleType="centerCrop" />
+                <ImageView android:id="@id/blurred_wallpaper_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <FrameLayout android:id="@id/blurred_wallpaper_skrim" android:background="?skrimColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.tul.aviator.ui.view.common.BaseViewPager android:id="@id/tabbed_home_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.tul.aviator.ui.view.common.ViewPagerIndicator android:id="@id/page_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m3" android:layout_marginTop="@dimen/tabbed_home_indicator_margin_top" android:layout_marginRight="@dimen/m3" />
+                <FrameLayout android:id="@id/az_apps" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.tul.aviator.ui.view.OverlayFrameLayout android:id="@id/overlay_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" aviate:edgeHintColor="@color/tipBlue" />
+                <include android:id="@id/app_drop_bar" android:visibility="gone" layout="@layout/app_drop_bar" />
+                <include android:id="@id/card_edit_bar" android:visibility="gone" layout="@layout/card_edit_bar" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/people_space_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_gravity="top" android:id="@id/omnisearch_drawer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.tul.aviator.ui.view.AviateDrawerLayout>
+        <include android:id="@id/contact_drop_bar" android:visibility="gone" layout="@layout/contact_drop_bar" />
+    </com.yahoo.aviate.android.aqua.AquaLayer>
+</com.tul.aviator.ui.view.dragdrop.DragLayer>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/card" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Search.Suggest.Container.Card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/image_icon" android:padding="10.0dip" style="@style/Search.Suggest.Container.Icon.Contact" />
+    <TextView android:textColor="@color/yssdk_gray" android:gravity="center" android:layout_gravity="left" android:id="@id/text_icon" android:background="@android:color/white" android:visibility="gone" android:text="@string/yssdk_history_icon" style="@style/Search.Suggest.Container.Icon.Contact" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="start" android:gravity="center_vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="49.0dip" android:maxLines="1" android:singleLine="true" />
+        <View android:id="@id/queryBorderBottom" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="49.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

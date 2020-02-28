@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.common.BorderedLinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/Aviate.TopBarSimple">
+        <ImageView android:id="@id/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/small_back" android:tint="@color/dark60" />
+        <com.tul.aviator.ui.view.ContactImageView android:id="@id/contact_picture" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" />
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="16.0dip" android:textColor="@color/dark60" android:gravity="center|left" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/share_location" android:layout_weight="1.0" style="@style/Aviate.TopBarSimpleText" />
+    </com.tul.aviator.ui.view.common.BorderedLinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <fragment android:id="@id/map" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.tul.aviator.ui.AviateSupportMapFragment" />
+        <ImageView android:id="@id/map_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/set_location_default_pin" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/share_button" android:text="@string/aqua_maps_share_loc" style="@style/OnboardingButton" />
+</LinearLayout>

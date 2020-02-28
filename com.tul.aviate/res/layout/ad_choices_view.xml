@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_center_dollar_sign_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:textColor="@color/sponsored_grey" android:id="@id/sponsoredText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aviate_sponsored_text" android:includeFontPadding="false" />
+    <FrameLayout android:id="@id/dollarSign" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

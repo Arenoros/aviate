@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/simple_header" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:layout_weight="1.0" android:footerDividersEnabled="false" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/search_history_divider_vertical" android:layout_width="fill_parent" android:layout_height="5.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clear_history_btn" android:background="@drawable/clickable_white_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/img" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/action_close_small" android:tint="@color/dark60" />
+            <com.tul.aviator.ui.view.AviateTextView android:textSize="12.0sp" android:textColor="@color/dark60" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_history_clear_btn" aviate:customFont="GothamSSm-Bold.otf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

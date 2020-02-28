@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/status_text" android:layout_marginBottom="@dimen/card_bottom_margin" android:singleLine="true" style="@style/Cards.l2" />
+    </LinearLayout>
+</merge>

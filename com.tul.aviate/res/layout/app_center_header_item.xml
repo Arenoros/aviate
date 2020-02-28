@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hero_icon" android:layout_width="@dimen/app_center_hero_icon_layout_size" android:layout_height="@dimen/app_center_hero_icon_layout_size" android:layout_marginLeft="@dimen/app_center_hero_icon_margin_left" android:layout_marginRight="@dimen/app_center_hero_icon_margin_right" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/app_center_app_hero_title_text_size" android:textColor="@color/white" android:ellipsize="end" android:id="@id/app_title" android:paddingRight="@dimen/app_center_app_hero_title_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_center_app_hero_title_margin_bottom" android:singleLine="true" />
+        <TextView android:textSize="@dimen/app_center_developer_title_text_size" android:textColor="@color/white" android:ellipsize="end" android:id="@id/developer_title" android:paddingRight="@dimen/app_center_developer_title_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RatingBar android:id="@id/hero_stars" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/app_center_hero_stars_layout_height" android:layout_marginTop="@dimen/app_center_hero_stars_margin_top" android:layout_marginRight="@dimen/app_center_hero_rating_bar_margin_right" android:isIndicator="true" style="@style/HeroRatingBar" />
+            <Button android:textSize="@dimen/app_center_hero_install_button_text_size" android:textColor="@android:color/white" android:id="@id/install_button" android:background="@drawable/install_button_small" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_center_hero_install_button_margin_top" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/aviate_install_button_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

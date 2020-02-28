@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/apps_frame" android:background="?collectionCardBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blurred_wallpaper_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.tul.aviator.ui.view.AllAppsListView android:id="@id/apps_list" android:paddingLeft="@dimen/m2" android:paddingTop="@dimen/m" android:paddingRight="@dimen/index_scroller_width_v3" android:paddingBottom="@dimen/m3" android:scrollbars="none" android:fadingEdge="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/omni_search_bar_height_with_top_margin" android:listSelector="@android:color/transparent" android:cacheColorHint="?baseBackground" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:overScrollFooter="@null" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+    <com.tul.aviator.ui.view.IndexScroller android:textSize="12.0sp" android:textColor="?indexScrollerTextColor" android:textColorHighlight="?indexScrollerTextHighlightColor" android:layout_gravity="right" android:id="@id/index_scroller" android:layout_width="@dimen/index_scroller_width_v3" android:layout_height="fill_parent" android:layout_marginTop="@dimen/omni_search_bar_height_with_margins" />
+</FrameLayout>

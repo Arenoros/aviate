@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "description": "",
+      "image_url": "android.resource://com.tul.aviate/drawable/streamline_techcrunch_icon"
+    },
+    {
+      "id": "nyt",
+      "name": "New York Times",
+      "description": "The New York Times is an American daily newspaper, founded and continuously published in New York City ",
+      "image_url": "android.resource://com.tul.aviate/drawable/streamline_nytimes"
+    }
+  ],
+
+  "feeds": [
+    {
+      "id": "https://techcrunch.com/feed/",
+      "name": "Technology News",
+      "description": "dummy desc",
+      "source_id":"techcrunch",
+      "image_url": "android.resource://com.tul.aviate/drawable/streamline_techcrunch_icon",
+      "source_name":"TechCrunch"
+    },
+    {
+      "id": "http://rss.nytimes.com/services/xml/rss/nyt/Space.xml",
+      "name": "NYT Space and Cosmos",
+      "description": "dummy desc",
+      "source_id":"nyt",
+      "image_url": "android.resource://com.tul.aviate/drawable/streamline_techcrunch_icon",
+      "source_name":"TechCrunch"
+    }
+  ],
+
+  "entries": [
+    {
+      "feedId": "http://rss.nytimes.com/services/xml/rss/nyt/Space.xml",
+      "last_updated": 1470000000000,
+      "entries": [
+        {
+          "id": "stub-001",
+          "title": "ExoMars Spacecraft Enters Orbit Around Mars as Word From Lander Is Awaited",
+          "url": "http://www.nytimes.com/2016/10/20/science/esa-mars-lander.html?partner=rss&emc=rss",
+          "image_url": "https://static01.nyt.com/newsgraphics/2016/10/16/exomars-landing/df4b3296f35e8b61cff585f20bf7c601500c97bb/approach-945.png",
+          "body": "<p>The joint mission of the European and Russian space agencies consists of an orbiter and a lander looking for methane and testing landing technologies.</p>"
+        },
+        {
+          "id": "stub-002",
+          "title": "Venus: Inhospitable, and Perhaps Instructional",
+          "url": "http://www.nytimes.com/2016/10/18/science/venus-akatsuki-japan.html?partner=rss&emc=rss",
+          "image_url": "https://static01.nyt.com/images/2016/10/18/science/18VENUS/18VENUS-moth.jpg",
+          "body": "<p>It is hoped that a Japanese space probe, Akatsuki, orbiting Venus will provide insights that could help in understanding Earth’s weather.</p>"
+        }
+      ]
+    },
+    {
+      "feedId": "https://techcrunch.com/feed/",
+      "last_updated": 1460000000000,
+      "entries": [
+        {
+          "id": "stub-003",
+          "title": "Faraday Future says it's finally going to show us a real car at CES",
+          "url": "https://techcrunch.com/2016/10/19/faraday-future-says-its-finally-going-to-show-us-a-real-car-at-ces/?ncid=rss",
+          "image_url": "https://tctechcrunch2011.files.wordpress.com/2016/10/1500x500.jpeg?w=210&#038;h=158&#038;crop=1",
+          "body": "<p>The concept car is basically always a vehicle of pure puffery, and carmakers go above and beyond when it comes to teasing the future. But few are as accomplished on this scale as Faraday Future, the master illusionist of electric vehicles. The company says it&#8217;s finally going to show us something worthy of the label &#8220;production,&#8221; however, at CES in January. CES, which is&hellip; <a href=\"https://techcrunch.com/2016/10/19/faraday-future-says-its-finally-going-to-show-us-a-real-car-at-ces/?ncid=rss\">Read More</a>]]></p>"
+        },
+        {
+          "id": "stub-004",
+          "title": "Someone knows something about this Marco Polo app that we don't",
+          "url": "https://techcrunch.com/2016/10/19/someone-knows-something-about-this-marco-polo-app-that-we-dont/?ncid=rss",
+          "image_url": "https://tctechcrunch2011.files.wordpress.com/2016/10/screen-shot-2016-10-19-at-12-26-19-pm.png?w=210&#038;h=158&#038;crop=1",
+          "body": "<p>There&#8217;s a whisper in the venture community we&#8217;re hearing that is growing increasingly louder, and it&#8217;s about this video walkie talkie app called Marco Polo. Investors are suddenly very interested in this app that &#8212; so we hear &#8212; might be growing in popularity among the youths. We&#8217;ve seen this story play out before, most recently with musical.ly. The app&hellip; <a href=\"https://techcrunch.com/2016/10/19/someone-knows-something-about-this-marco-polo-app-that-we-dont/?ncid=rss\">Read More</a>]]></p>"
+        }
+      ]
+    }
+  ]
+}

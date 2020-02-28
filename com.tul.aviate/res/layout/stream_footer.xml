@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/cardBackground" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/settings_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.tul.aviator.ui.view.common.TintedImageView android:src="@drawable/action_settings_cog" style="@style/AviateStreamFooterImage" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:text="@string/aviate_settings_btn" style="@style/AviateStreamFooterText" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:id="@id/divider" android:background="@color/dark20" android:layout_width="1.0dip" android:layout_height="32.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/help_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.tul.aviator.ui.view.common.TintedImageView android:src="@drawable/action_help" style="@style/AviateStreamFooterImage" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:text="@string/aviate_settings_help" style="@style/AviateStreamFooterText" />
+    </LinearLayout>
+</LinearLayout>

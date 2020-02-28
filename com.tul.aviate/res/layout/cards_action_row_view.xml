@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/action_icon" android:tint="@color/cardDark100" style="@style/AppTheme.ActionIcon" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/primary_text" android:visibility="gone" android:layout_marginLeft="@dimen/m3" style="@style/AppTheme.L1" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/secondary_text" android:visibility="gone" android:layout_marginLeft="@dimen/m" style="@style/AppTheme.L1" />
+    </LinearLayout>
+    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/descriptor_text" android:visibility="gone" android:layout_marginLeft="@dimen/l2_with_icon_left_margin" android:layout_marginTop="@dimen/l2_below_l1_top_margin" style="@style/AppTheme.L2" />
+</merge>

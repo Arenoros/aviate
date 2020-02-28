@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="27.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/preview_back_icon" android:background="@drawable/yssdk_actionbar_item_stateful" android:paddingLeft="5.0dip" android:clickable="true" android:layout_width="@dimen/yssdk_preview_header_height" android:layout_height="fill_parent" android:text="@string/yssdk_back_icon_2" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/yssdk_preview_title_textsize_large" android:textColor="@color/yssdk_white" android:ellipsize="end" android:gravity="left" android:id="@id/preview_title" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/yssdk_preview_subtitle_textsize_large" android:textColor="@color/yssdk_white" android:ellipsize="end" android:id="@id/preview_subtitle" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/yssdk_preview_copyright_textsize" android:textColor="@color/yssdk_gray" android:id="@id/preview_copyright" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yssdk_image_copyright_message" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/clickable_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/aviate_settings_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/icon" android:layout_width="@dimen/aviate_settings_image_width" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/profile_icon" android:visibility="gone" android:layout_width="@dimen/aviate_settings_signed_in_icon_width" android:layout_height="@dimen/aviate_settings_signed_in_icon_width" />
+        <com.tul.aviator.ui.view.common.TintedImageView android:layout_gravity="center_horizontal" android:id="@id/signin_icon" android:layout_width="@dimen/action_icon_size" android:layout_height="@dimen/action_icon_size" android:src="@drawable/action_signin" android:tint="@color/black" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingTop="@dimen/aviate_settings_list_item_padding_vertical" android:paddingRight="@dimen/aviate_settings_list_item_padding_horizontal" android:paddingBottom="@dimen/aviate_settings_list_item_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/aviate_settings_subtitle_font_size" android:textColor="@color/aviateSettingsSubtitleColor" android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" aviate:customFont="GothamNarrSSm-Book.otf" />
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/aviate_settings_title_font_size" android:textColor="@color/aviateSettingsTitleColor" android:id="@id/title" android:paddingTop="@dimen/aviate_settings_list_item_padding_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" aviate:customFont="GothamNarrSSm-Book.otf" />
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

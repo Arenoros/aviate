@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/broadway_minicard_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ad_image_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ad_thumbnail" android:layout_width="fill_parent" android:layout_height="175.0dip" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sponsored_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_center_dollar_sign_margin_top" android:layout_marginRight="@dimen/app_center_dollar_sign_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0dip" android:id="@id/sponsoredText" style="@style/FacebookSponsoredText" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dollar_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_center_dollar_sign_margin_right" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/title_layout" android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/call_to_action_button">
+            <com.tul.aviator.ui.view.AviateTextView android:textStyle="bold" android:id="@id/app_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" style="@style/Timeline.Body" />
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/social_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Timeline.Body" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/call_to_action_button" android:background="@drawable/play_now_large" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/app_center_ad_button_margin_right" android:layout_marginRight="@dimen/app_center_ad_button_margin_right" android:minWidth="90.0dip" android:minHeight="0.0dip" android:text="@string/streamline_ad_learn_more" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</LinearLayout>

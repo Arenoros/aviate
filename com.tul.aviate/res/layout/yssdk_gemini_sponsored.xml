@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.yahoo.mobile.client.share.search.ui.view.AsyncImageView android:id="@id/ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_gravity="bottom" android:id="@id/ad_sponsored" android:background="@drawable/yssdk_gradient_black_to_transparent" android:paddingLeft="@dimen/yssdk_videocard_video_icon_margin_right" android:paddingTop="@dimen/yssdk_trendingview_header_icon_dimension" android:paddingRight="@dimen/yssdk_videocard_video_icon_margin_right" android:paddingBottom="@dimen/yssdk_videocard_video_icon_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="headline" android:layout_alignParentLeft="true" />
+            <TextView android:textStyle="normal" android:id="@id/sponsoredByLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sponsored" android:layout_below="@id/headline" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/yssdk_local_preview_margin_m1" android:layout_height="@dimen/yssdk_local_preview_margin_m1" android:src="@drawable/yssdk_commercial_icon" android:tint="@color/yssdk_white" android:layout_alignBottom="@id/sponsoredByLabel" android:layout_alignParentRight="true" />
+            <TextView android:textStyle="normal" android:gravity="center" android:layout_width="@dimen/yssdk_local_preview_margin_m1" android:layout_height="@dimen/yssdk_local_preview_margin_m1" android:text="Ad" android:layout_toLeftOf="@id/icon" android:layout_alignBottom="@id/sponsoredByLabel" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

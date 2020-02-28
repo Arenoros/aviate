@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.GradientCardHeaderView android:id="@id/gradient_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/text" android:padding="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.L1" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/subtext" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.L2" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:textStyle="bold" android:ellipsize="end" android:id="@id/examples_list" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" style="@style/AppTheme.L1" />
+        <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/footer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

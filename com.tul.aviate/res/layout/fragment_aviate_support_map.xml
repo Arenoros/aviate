@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.gms.maps.SupportMapFragment" />
+    <TextView android:gravity="center_horizontal" android:id="@id/no_play_services_text" android:background="@color/white" android:padding="40.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_google_play_services" />
+</FrameLayout>

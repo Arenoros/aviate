@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hero_image" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/gif_icon" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/gif_play" />
+    </FrameLayout>
+    <com.yahoo.streamline.ui.cards.StreamlineBaseCardView android:id="@id/timeline_card_base" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

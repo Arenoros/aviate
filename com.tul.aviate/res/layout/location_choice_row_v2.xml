@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.common.BorderedRelativeLayout android:background="@drawable/spaces_row_background" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.VenueIconView android:id="@id/location_choice_icon" android:layout_width="@dimen/space_icon_size" android:layout_height="@dimen/space_icon_size" android:layout_marginRight="@dimen/cards_content_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/location_choice_icon" android:layout_centerVertical="true">
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="18.0dip" android:textColor="@color/toggle_button_text" android:id="@id/location_choice_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" aviate:customFont="GothamNarrSSm-Book.otf" />
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="16.0dip" android:textColor="@color/dark50" android:id="@id/location_choice_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" aviate:customFont="GothamNarrSSm-Book.otf" />
+    </LinearLayout>
+</com.tul.aviator.ui.view.common.BorderedRelativeLayout>

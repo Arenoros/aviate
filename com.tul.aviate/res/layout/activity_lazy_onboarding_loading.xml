@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lazy_onboarding_loading_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/lazy_onboarding_loading_progress" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="26.0dip" />
+        <com.tul.aviator.ui.view.AviateTextView android:layout_gravity="center" android:id="@id/lazy_onboarding_loading_message" android:text="@string/lazy_onboarding_loading_message" style="@style/LazyOnboardingLoadingMessage" />
+    </LinearLayout>
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/lazy_onboarding_loading_try_again_message" android:visibility="invisible" android:layout_marginBottom="20.0dip" android:text="@string/loading_fail_message" style="@style/LazyOnboardingLoadingMessage" />
+    <com.tul.aviator.ui.view.AviateTextView android:layout_gravity="bottom" android:id="@id/lazy_onboarding_loading_try_again_btn" android:visibility="invisible" android:text="@string/onboarding_ready_try_again" style="@style/LazyOnboardingBtn" />
+</FrameLayout>

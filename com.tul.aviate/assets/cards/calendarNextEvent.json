@@ -1,0 +1,14 @@
+{
+  "id": "nextCalendarEvent",
+  "type": "CALENDAR_NEXTEVENT",
+  "renderEngine": "dunkv2",
+  "description": "Next Calendar Event Card",
+  "modules": [
+    {
+      "ref": [
+        "event"
+      ],
+      "type": "calendarEvent"
+    }
+  ]
+}

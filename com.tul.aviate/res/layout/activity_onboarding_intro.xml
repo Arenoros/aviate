@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/illustration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inAnimation="@anim/fast_fade_in" android:outAnimation="@anim/fast_fade_out" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:animateFirstView="true">
+        <ImageView android:id="@id/illustration1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        <ImageView android:id="@id/illustration2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    </ViewSwitcher>
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/subtitle" android:visibility="gone" android:layout_marginTop="@dimen/onboarding_tour_subtitle_margin" android:layout_below="@id/illustration" style="@style/OnboardingSubtitle" />
+    <com.tul.aviator.ui.view.common.BaseViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.tul.aviator.ui.view.common.BarPageIndicator android:id="@id/page_indicator" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+    <com.tul.aviator.ui.view.AviateTextView android:enabled="false" android:id="@id/button" android:visibility="gone" android:text="@string/onboarding_intro_please_wait" android:layout_alignParentBottom="true" style="@style/OnboardingButton" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?baseBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/add_collection_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:background="?dimmingBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tul.aviator.ui.view.common.BorderedRelativeLayout android:background="?elementsBackground" aviate:borderBottomColor="?borderDarkOnBaseBackground" aviate:borderBottomWidth="@dimen/pixel1" style="@style/HeaderButtonTheme">
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/header" android:text="@string/all_collections_header" android:layout_toRightOf="@id/back_icon" style="@style/Aviate.TopBarText" />
+            <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/back_icon" android:src="@drawable/action_back" android:tint="?textDark" android:contentDescription="@string/back_button" style="@style/Aviate.ActionIcon" />
+        </com.tul.aviator.ui.view.common.BorderedRelativeLayout>
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="?dividerHorizontalOnAddBackground" android:dividerHeight="?dividerHeightHorizontalOnAddCollectionBackground" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

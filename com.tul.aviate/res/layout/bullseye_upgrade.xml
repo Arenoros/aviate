@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_corner_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.yahoo.aviate.android.ui.view.GradientCardHeaderView android:layout_gravity="center" android:id="@id/bullseye_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </FrameLayout>
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/upgrade_bullseye_title_size" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/bullseye_title" android:paddingLeft="@dimen/upgrade_bullseye_padding" android:paddingTop="@dimen/upgrade_bullseye_padding" android:paddingRight="@dimen/upgrade_bullseye_padding" android:paddingBottom="@dimen/upgrade_bullseye_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" aviate:customFont="GothamNarrSSm-Medium.otf" style="@style/SmallText" />
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/bullseye_content" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/cards_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" style="@style/AppTheme.L1" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/dismiss_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.share.search.ui.container.SearchTabView android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/search_tab_content" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_default_tab_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/search_tab_indicator_container" android:background="@drawable/yssdk_tabbar_top" android:layout_width="fill_parent" android:layout_height="3.0dip">
+        <View android:id="@id/search_tab_indicator" android:background="@color/search_tab_selected" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_tab_label_container" android:background="#fff5f4f6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.yahoo.mobile.client.share.search.ui.container.SearchTabView>

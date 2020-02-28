@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:background="@drawable/clickable_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/aviate_settings_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/img" android:layout_width="@dimen/aviate_settings_image_width" android:layout_height="@dimen/action_icon_size" android:src="@drawable/check_white" android:tint="@color/tipBlue" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/aviate_settings_list_item_padding_horizontal" android:paddingTop="@dimen/aviate_settings_list_item_padding_vertical" android:paddingBottom="@dimen/aviate_settings_list_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img" android:layout_centerInParent="true">
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/aviate_settings_title_font_size" android:textColor="@color/aviateSettingsTitleColor" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" aviate:customFont="GothamNarrSSm-Book.otf" />
+        <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/aviate_settings_subtitle_font_size" android:textColor="@color/aviateSettingsSubtitleColor" android:id="@id/summary" android:paddingTop="@dimen/aviate_settings_list_item_padding_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" aviate:customFont="GothamNarrSSm-Book.otf" />
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

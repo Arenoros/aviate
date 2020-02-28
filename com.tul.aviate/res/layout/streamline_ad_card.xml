@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/broadway_minicard_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="160.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_layout" android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tul.aviator.ui.view.AviateTextView android:textStyle="bold" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" style="@style/Timeline.Body" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/ad_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Timeline.Body" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/learn_more_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/divider" />
+        <com.tul.aviator.ui.view.AviateTextView android:textStyle="bold" android:textColor="@color/fuji_blue_1A" android:gravity="center" android:id="@id/call_to_action" android:padding="10.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/streamline_ad_learn_more" android:alpha="1.0" android:textAllCaps="true" style="@style/Timeline.Caption" />
+    </LinearLayout>
+</LinearLayout>

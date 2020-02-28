@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.mobile.android.broadway.image.LightBoxViewPager android:id="@id/lightbox_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/lightbox_close_imageview_container" android:layout_width="@dimen/lightbox_close_icon_container_width" android:layout_height="@dimen/lightbox_close_icon_container_width" android:layout_marginTop="@dimen/lightbox_close_icon_margins" android:layout_marginRight="@dimen/lightbox_close_icon_margins" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/lightbox_close_imageview" android:layout_width="@dimen/lightbox_close_icon_width" android:layout_height="@dimen/lightbox_close_icon_width" android:src="@drawable/ic_close_white_18dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

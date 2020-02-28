@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.common.LoadingView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="125.0dip" android:layout_height="125.0dip" android:src="@drawable/error" android:scaleType="centerInside" android:tint="#99aaaaaa" />
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="#99aaaaaa" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/loading_fail_message" style="@style/MediumText" />
+    </LinearLayout>
+</com.tul.aviator.ui.view.common.LoadingView>

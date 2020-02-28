@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="safe_search_options">
+        <item>@string/yssdk_safesearch_strict</item>
+        <item>@string/yssdk_safesearch_moderate</item>
+        <item>@string/yssdk_safesearch_off</item>
+    </string-array>
+    <string-array name="safe_search_values">
+        <item>r</item>
+        <item>i</item>
+        <item>p</item>
+    </string-array>
+    <string-array name="longPressListOptionsWithMinibrowserDisabled">
+        <item>@string/yssdk_copy</item>
+        <item>@string/yssdk_open_in_browser</item>
+    </string-array>
+    <string-array name="longPressListOptionsWithMinibrowserEnabled">
+        <item>@string/yssdk_open</item>
+        <item>@string/yssdk_copy</item>
+    </string-array>
+    <string-array name="search_history_options">
+        <item>@string/yssdk_search_history_enabled</item>
+        <item>@string/yssdk_search_history_disabled</item>
+    </string-array>
+    <string-array name="search_history_values">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+</resources>

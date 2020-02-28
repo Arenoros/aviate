@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/full_layout" android:background="?baseBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/add_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:background="?dimmingBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:background="?baseBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tul.aviator.ui.view.common.BorderedLinearLayout android:background="?elementsBackground" aviate:borderBottomColor="?listItemHeaderBorderColor" aviate:borderBottomWidth="?listItemHeaderBorderWidth" style="@style/HeaderButtonTheme">
+            <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/back_btn" android:src="@drawable/action_back" android:tint="?textDark" android:contentDescription="@string/back_button" style="@style/Aviate.ActionIcon" />
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/header_title" android:text="@string/edit_mode_add_widget_header" style="@style/Aviate.TopBarText" />
+        </com.tul.aviator.ui.view.common.BorderedLinearLayout>
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="?dividerHorizontalOnAddBackground" android:dividerHeight="?dividerHeightHorizontalOnAddWidgetBackground" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    </LinearLayout>
+</FrameLayout>

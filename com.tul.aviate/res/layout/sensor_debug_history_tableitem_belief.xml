@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="@android:drawable/list_selector_background" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/belief_time" android:layout_marginRight="7.0dip" />
+    <TextView android:textColor="@color/white" android:id="@id/belief_loc_updated" android:layout_marginRight="3.0dip" />
+    <TextView android:textColor="#ffffbb33" android:id="@id/belief_sensor_01" android:layout_marginRight="3.0dip" />
+    <TextView android:textColor="#ff99cc00" android:id="@id/belief_sensor_02" android:layout_marginRight="3.0dip" />
+    <TextView android:textColor="#ffaa66cc" android:id="@id/belief_sensor_03" android:layout_marginRight="3.0dip" />
+    <TextView android:textColor="#ff33b5e5" android:id="@id/belief_sensor_04" android:layout_marginRight="3.0dip" />
+    <TextView android:textColor="#ffff4444" android:id="@id/belief_sensor_05" />
+</TableRow>

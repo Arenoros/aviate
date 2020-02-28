@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/space_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/space_header_v3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="?homescreenTextColor" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cards.l2.Bold" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_header_middle_margin">
+            <ImageView android:id="@id/location_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:tint="?homescreenIconColor" style="@style/Cards.l2" />
+            <TextView android:textColor="?homescreenTextColor" android:id="@id/location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cards.l2" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.common.BorderedLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?marginHgutter" android:layout_marginTop="?marginVgutter" android:layout_marginRight="?marginHgutter" style="@style/Aviate.Card.WidgetPlaceholder"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.AviateTextView android:textColor="?placeHolderTextColor" android:layout_gravity="center_horizontal" android:id="@id/placeholder_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" style="@style/Aviate.BigText" />
+    <com.tul.aviator.ui.view.AviateTextView android:textColor="?placeHolderTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_widget_placeholder_click_to_add" />
+</com.tul.aviator.ui.view.common.BorderedLinearLayout>

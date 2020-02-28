@@ -1,0 +1,18 @@
+.class public interface abstract Lcom/yahoo/cards/android/networking/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Lcom/android/a/l;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/android/a/l",
+            "<*>;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method

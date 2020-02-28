@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_bar_with_progress" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ysa_search_bar_view_group" android:background="@drawable/ysa_search_bar_rounded_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ysa_search_bar_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ysa_search_bar_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ysa_search_action" android:tint="@color/searchbar_left_icons_gray_tint" />
+        <EditText android:textSize="15.0sp" android:id="@id/ysa_search_bar_edit_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:hint="@string/aviate_search_hint" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" android:inputType="textNoSuggestions|textUri" android:imeOptions="actionSearch" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ysa_search_bar_google_logo" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="36.0dip" android:src="@drawable/ysa_google_logo" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ysa_search_bar_clear_icon" android:padding="8.0dip" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ysa_cancel" android:tint="@color/searchbar_right_icons_gray_tint" />
+    </LinearLayout>
+</LinearLayout>

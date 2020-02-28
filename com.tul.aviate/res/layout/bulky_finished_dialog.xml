@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_view" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bulky_top_bar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="15.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="17.0dip" android:textColor="@color/black" android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bulky_finished_title" android:layout_weight="1.0" style="@style/Cards.h1" />
+        <ImageView android:id="@id/close" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bulky_cancel" />
+    </LinearLayout>
+    <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="17.0dip" android:textStyle="normal" android:textColor="@color/bulky_title_gray" android:id="@id/content" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cards.h1" />
+</LinearLayout>

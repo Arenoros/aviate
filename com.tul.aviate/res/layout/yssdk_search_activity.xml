@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_activity_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/search_results_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/yssdk_search_pager_host_v2" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/search_suggestion_container" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/search_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.mobile.client.share.search.ui.SearchBarView android:orientation="vertical" android:id="@id/search_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

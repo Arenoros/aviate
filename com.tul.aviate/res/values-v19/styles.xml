@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Aviate.Transparent.Dark.HomeV3" parent="@style/Aviate.Transparent.Dark">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="marginHgutter">@dimen/m3</item>
+        <item name="marginVgutter">@dimen/m2</item>
+        <item name="marginHgutterhalf">6.0dip</item>
+        <item name="marginVgutterhalf">@dimen/m</item>
+        <item name="marginHgutterx2">@dimen/m6</item>
+        <item name="cardMarginTop">@dimen/m</item>
+        <item name="cardMarginBottom">@dimen/m</item>
+    </style>
+    <style name="Aviate.Transparent.Light.HomeV3" parent="@style/Aviate.Transparent.Light">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="marginHgutter">@dimen/m3</item>
+        <item name="marginVgutter">@dimen/m2</item>
+        <item name="marginHgutterhalf">6.0dip</item>
+        <item name="marginVgutterhalf">@dimen/m</item>
+        <item name="marginHgutterx2">@dimen/m6</item>
+        <item name="cardMarginTop">@dimen/m</item>
+        <item name="cardMarginBottom">@dimen/m</item>
+    </style>
+    <style name="Aviate.Transparent.V3.Home" parent="@style/Aviate.Transparent.V3">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="WallpaperPickerTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

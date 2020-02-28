@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usebutton.sdk.internal.views.TwoLineInventoryView android:orientation="vertical" android:background="@drawable/btn_background_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_margin="@dimen/promo_card_padding">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|left" android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/inventory_primary" android:layout_width="wrap_content" android:layout_height="30.0dip" android:lines="1" android:layout_weight="1.0" style="@style/CardText.btn_charcoal.Small" />
+            <TextView android:ellipsize="end" android:id="@id/inventory_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="@style/CardText.Dark.Small.Light" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="right" android:id="@id/inventory_icon" android:layout_width="40.0dip" android:layout_height="30.0dip" android:scaleType="fitCenter" android:adjustViewBounds="false" />
+            <TextView android:ellipsize="end" android:id="@id/inventory_icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/CardText.Dark.Small.Light" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/btn_grey_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</com.usebutton.sdk.internal.views.TwoLineInventoryView>

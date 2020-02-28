@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s, %2$d Notificações</item>
+        <item quantity="one">%1$s, %2$d Notificação</item>
+        <item quantity="two">%1$s, %2$d Notificações</item>
+        <item quantity="few">%1$s, %2$d Notificações</item>
+        <item quantity="many">%1$s, %2$d Notificações</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">Instalou %d apps novas</item>
+        <item quantity="one">Instalou %d app nova</item>
+        <item quantity="few">Instalou %d apps novas</item>
+        <item quantity="many">Instalou %d apps novas</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">Instalar %d apps</item>
+        <item quantity="one">Instalar %d app</item>
+        <item quantity="few">Instalar %d apps</item>
+        <item quantity="many">Instalar %d apps</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d dias</item>
+        <item quantity="one">%d dia</item>
+        <item quantity="few">%d dias</item>
+        <item quantity="many">%d dias</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d horas</item>
+        <item quantity="many">%d horas</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d minutos</item>
+        <item quantity="many">%d minutos</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+        <item quantity="few">%d segundos</item>
+        <item quantity="many">%d segundos</item>
+    </plurals>
+</resources>

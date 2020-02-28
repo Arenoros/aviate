@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header_view" android:background="@color/translucent_actionbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_drawable_side_margin" android:layout_marginTop="@dimen/app_center_header_icon_margin_top" android:layout_marginRight="@dimen/app_center_header_icon_margin_right" android:layout_marginBottom="@dimen/app_center_header_icon_margin_bottom" android:src="@drawable/header_icon" />
+        <TextView android:textSize="@dimen/app_center_header_title_text_size" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/app_center_title_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:paddingTop="@dimen/app_center_carousel_view_padding_top" android:paddingBottom="@dimen/app_center_carousel_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/header_bottom_container" android:paddingBottom="@dimen/app_center_header_bottom_container_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tul.aviator.ui.view.common.BarPageIndicator android:id="@id/view_pager_indicator" android:layout_width="@dimen/app_center_view_pager_indicator_width" android:layout_height="@dimen/app_center_view_pager_indicator_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/sponsored_linear_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/app_center_header_sponsored_text_size" android:textColor="@color/white50" android:layout_gravity="center_vertical" android:id="@id/sponsoredText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_center_header_sponsored_text_margin_right" android:text="@string/aviate_sponsored_text" />
+            <FrameLayout android:id="@id/dollarSign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_center_header_dollar_sign_margin_right" android:src="@drawable/dollar_white" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

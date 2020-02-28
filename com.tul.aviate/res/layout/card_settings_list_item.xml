@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/clickable_row_bg" android:paddingLeft="0.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_settings_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="16.0dip" android:layout_marginTop="2.0dip" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="15.0sp" android:textColor="@color/cardDark100" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/cardDark40" android:id="@id/summary" android:paddingLeft="48.0dip" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+</RelativeLayout>

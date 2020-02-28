@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.common.BorderedLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Aviate.Card.Marginless"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.common.BorderedRelativeLayout android:id="@id/title_area" style="@style/Aviate.CardHeader">
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_title_directions" android:layout_alignParentLeft="true" style="@style/Aviate.CardTitleText.Space" />
+    </com.tul.aviator.ui.view.common.BorderedRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/travel_times_container" android:background="?spaceCardBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?dividerVerticalOnElementsBackground" android:showDividers="middle" />
+</com.tul.aviator.ui.view.common.BorderedLinearLayout>

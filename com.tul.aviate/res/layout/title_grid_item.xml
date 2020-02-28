@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="@dimen/app_center_organic_title_text_size" android:textColor="#ff787d82" android:id="@id/category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_side_margin" android:layout_marginTop="@dimen/app_center_organic_title_margin_top" />
+</LinearLayout>

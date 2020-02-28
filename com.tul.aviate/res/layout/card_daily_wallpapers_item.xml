@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.aviate.android.cards.DailyWallpapersItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tul.aviator.ui.view.common.MaterialDesignLoadingImageView android:id="@id/image" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="255.0dip" android:scaleType="centerCrop" />
+        <View android:id="@id/image_shadow" android:background="@drawable/gradient_image_header" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_gravity="bottom|center|left" android:paddingLeft="@dimen/m3" android:paddingBottom="@dimen/m3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white100" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/license_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/license_copyright" android:tint="@color/white60" android:layout_below="@id/date" android:layout_alignParentLeft="true" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_gravity="center_vertical" android:id="@id/attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/license_icon" android:layout_below="@id/date" />
+        </RelativeLayout>
+    </FrameLayout>
+</com.yahoo.aviate.android.cards.DailyWallpapersItemView>

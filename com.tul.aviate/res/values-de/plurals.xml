@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s, %2$d Benachrichtigungen</item>
+        <item quantity="one">%1$s, %2$d Benachrichtigung</item>
+        <item quantity="two">%1$s, %2$d Benachrichtigungen</item>
+        <item quantity="few">%1$s, %2$d Benachrichtigungen</item>
+        <item quantity="many">%1$s, %2$d Benachrichtigungen</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">Du hast %d neue Apps installiert</item>
+        <item quantity="one">Du hast %d neue App installiert</item>
+        <item quantity="few">Du hast %d neue Apps installiert</item>
+        <item quantity="many">Du hast %d neue Apps installiert</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">%d Apps installieren</item>
+        <item quantity="one">%d App installieren</item>
+        <item quantity="few">%d Apps installieren</item>
+        <item quantity="many">%d Apps installieren</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d Tage</item>
+        <item quantity="one">%d Tag</item>
+        <item quantity="few">%d Tage</item>
+        <item quantity="many">%d Tage</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d Std.</item>
+        <item quantity="one">%d Std.</item>
+        <item quantity="few">%d Std.</item>
+        <item quantity="many">%d Std.</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d Min.</item>
+        <item quantity="one">%d Min.</item>
+        <item quantity="few">%d Min.</item>
+        <item quantity="many">%d Min.</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="few">%d Sekunden</item>
+        <item quantity="many">%d Sekunden</item>
+    </plurals>
+</resources>

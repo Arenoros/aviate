@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboarding_title_padding_left_right">40.0dip</dimen>
+</resources>

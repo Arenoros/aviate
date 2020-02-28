@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/streamline_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/source_icon" android:layout_width="@dimen/streamline_source_icon_size" android:layout_height="@dimen/streamline_source_icon_size" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.yahoo.streamline.ui.CircleNotificationTextView android:id="@id/notification" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginRight="3.0dip" />
+                <com.tul.aviator.ui.view.AviateTextView android:id="@id/feed_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="@style/Timeline.Title" />
+                <ViewStub android:id="@id/ad_choices_stub" android:layout="@layout/ad_choices_view" android:inflatedId="@id/ad_choices" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/source_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/Timeline.Caption" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/streamline_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

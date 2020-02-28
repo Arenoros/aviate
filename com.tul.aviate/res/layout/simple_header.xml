@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/simple_header_layout" android:background="@color/tipBlue" style="@style/HeaderButtonTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/back_btn" android:layout_width="64.0dip" android:src="@drawable/action_back" android:tint="@color/white" android:contentDescription="@string/back_button" style="@style/Aviate.ActionIcon" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="15.0dip" android:textColor="@color/white" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" aviate:customFont="GothamSSm-Bold.otf" style="@style/Aviate.TopBarSimpleText" />
+</LinearLayout>

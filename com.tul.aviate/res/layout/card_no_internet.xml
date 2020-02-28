@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/no_internet_card" android:background="@drawable/card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/worldIcon" android:background="@drawable/world" android:layout_width="@dimen/no_internet_image_size" android:layout_height="@dimen/no_internet_image_size" android:layout_margin="@dimen/cards_content_padding" android:layout_centerInParent="true" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="center" android:id="@id/no_internet_connection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_internet_connection" android:layout_below="@id/worldIcon" android:layout_centerInParent="true" style="@style/Cards.l1" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="center" android:id="@id/check_again_later" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l2_below_l1_top_margin" android:layout_marginBottom="16.0dip" android:text="@string/check_again_later" android:layout_below="@id/no_internet_connection" android:layout_centerInParent="true" style="@style/Cards.l2" />
+</RelativeLayout>

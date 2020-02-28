@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/launcher_image" android:layout_width="fill_parent" android:layout_height="173.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/launcher_selection_bottom" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/launcher_overlay" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignBottom="@id/launcher_image" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0dip" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/onboarding_action_always" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0dip" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/onboarding_action_just_once" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

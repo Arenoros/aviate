@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.aviate.android.cards.SingleWeatherCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.aviate.android.ui.view.CardHeaderView android:id="@id/single_weather_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/conditions_forecast_container" android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/cards_content_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/current_conditions_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/current_conditions_description" android:maxLines="1" style="@style/AppTheme.L2" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/current_temperature" android:layout_marginRight="6.0dip" android:layout_alignParentTop="true" style="@style/AppTheme.Temperature.Current" />
+                <ImageView android:id="@id/current_condition_icon" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="@dimen/m" android:src="@drawable/hourly_clear_day" android:scaleType="fitCenter" android:layout_toRightOf="@id/current_temperature" android:layout_alignBottom="@id/current_temperature" />
+                <LinearLayout android:orientation="vertical" android:id="@id/high_low_temps_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m2" android:layout_toRightOf="@id/current_condition_icon" android:layout_alignBottom="@id/current_temperature">
+                    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/high_temperature" style="@style/AppTheme.Temperature" />
+                    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/low_temperature" android:layout_marginTop="2.0dip" style="@style/AppTheme.Temperature.Low" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/forecast_items_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <include android:id="@id/first_upcoming_forecast" layout="@layout/card_single_weather_forecast_item" />
+            <include android:id="@id/second_upcoming_forecast" layout="@layout/card_single_weather_forecast_item" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/single_weather_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.yahoo.aviate.android.cards.SingleWeatherCardView>

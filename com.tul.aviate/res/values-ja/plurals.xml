@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s、%2$d通知</item>
+        <item quantity="one">%1$s、%2$d通知</item>
+        <item quantity="two">%1$s、%2$d通知</item>
+        <item quantity="few">%1$s、%2$d通知</item>
+        <item quantity="many">%1$s、%2$d通知</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">%d 個の新規アプリがインストールされました</item>
+        <item quantity="one">%d 個の新規アプリがインストールされました</item>
+        <item quantity="few">%d 個の新規アプリがインストールされました</item>
+        <item quantity="many">%d 個の新規アプリがインストールされました</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">%dアプリをインストール</item>
+        <item quantity="one">%dアプリをインストール</item>
+        <item quantity="few">%dアプリをインストール</item>
+        <item quantity="many">%dアプリをインストール</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+        <item quantity="few">%d 日</item>
+        <item quantity="many">%d 日</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+        <item quantity="few">%d 時間</item>
+        <item quantity="many">%d 時間</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+        <item quantity="few">%d 分</item>
+        <item quantity="many">%d 分</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+        <item quantity="few">%d 秒</item>
+        <item quantity="many">%d 秒</item>
+    </plurals>
+</resources>

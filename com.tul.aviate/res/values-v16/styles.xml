@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardAction" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_background_white</item>
+        <item name="android:padding">@dimen/promo_action_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="CardText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/btn_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="CardText.Dark.Small" parent="@style/CardText.Dark">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="CardText.Dark.Small.Light" parent="@style/CardText.Dark.Small">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="CardText.Small" parent="@style/CardText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="CardText.btn_charcoal" parent="@style/CardText">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/btn_charcoal</item>
+    </style>
+    <style name="CardText.btn_charcoal.Small" parent="@style/CardText.btn_charcoal">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="CardText.btn_charcoal.Small.Light" parent="@style/CardText.btn_charcoal.Small">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DropinButton">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="btn_buttonId">test-placement</item>
+        <item name="btn_drawablePadding">5.0dip</item>
+        <item name="btn_gravity">center|left</item>
+        <item name="btn_iconSize">18.0dip</item>
+        <item name="btn_interactionDisabled">false</item>
+        <item name="btn_padding">10.0dip</item>
+        <item name="btn_textSize">15.0sp</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/header_images_container" android:layout_width="fill_parent" android:layout_height="@dimen/card_hero_image_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_venue_image" android:background="#fff5f5f5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="3.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/secondary_images_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <ImageView android:id="@id/secondary_venue_image" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <ImageView android:id="@id/tertiary_venue_image" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

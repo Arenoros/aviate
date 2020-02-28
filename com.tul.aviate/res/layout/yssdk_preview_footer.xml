@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_preview_footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/yssdk_list_item_title_H1" android:textStyle="bold" android:textColor="@color/yssdk_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_send_link" android:background="@color/yssdk_share_blue" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_preview_share_height" android:text="@string/yssdk_share" />
+    <TextView android:textSize="@dimen/yssdk_list_item_title_H1" android:textStyle="bold" android:textColor="@color/yssdk_white" android:layout_gravity="center" android:id="@id/tv_send_icon" android:background="@color/yssdk_share_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/yssdk_share_send_margin" android:text="@string/yssdk_share_send_icon" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Timeline.Card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/timeline_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Timeline.Title.Card" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/timeline_card_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="5" style="@style/Timeline.Body.Card" />
+    <com.yahoo.streamline.ui.cards.StreamlineCardCaption android:id="@id/timeline_card_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

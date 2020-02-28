@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/lazy_welcome_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lazy_onboarding_welcome_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:paddingTop="@dimen/m2" android:paddingRight="@dimen/m2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.6">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/license_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/license_copyright" android:tint="@color/white" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lazy_onboarding_wallpaper_attribution" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/lazy_onboarding_welcome_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/aviate_white_logo" android:layout_centerInParent="true" />
+            <com.tul.aviator.ui.view.AviateTextView android:text="@string/onboarding_welcome_title" android:layout_below="@id/lazy_onboarding_welcome_logo" style="@style/LazyOnboardingLogoSubtitle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_onboarding_welcome_btn" android:text="@string/lazy_onboarding_welcome_btn" android:layout_alignParentBottom="true" style="@style/LazyOnboardingBtn" />
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_onboarding_welcome_tos" android:layout_above="@id/lazy_onboarding_welcome_btn" style="@style/LazyOnboardingTerms" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/lazy_onboarding_welcome_dim_overlay" android:background="#88000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+</FrameLayout>

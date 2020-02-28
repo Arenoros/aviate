@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.cardsv2.ui.CardEditActionBar android:orientation="horizontal" android:background="?editModeOnElementsBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nav2_header_height" aviate:borderColor="@color/holoBlue" aviate:borderBottomWidth="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/remove_button" android:background="@drawable/clickable_bg" android:visibility="gone" android:layout_width="@dimen/span1" android:layout_height="fill_parent" android:src="@drawable/trashcan" android:tint="?editModeIconOnButtonBackground" android:layout_weight="1.0" android:contentDescription="@string/remove_card" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="100.0" />
+    <View android:background="?dividerVerticalOnElementsBackground" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/save_button" android:background="@drawable/clickable_bg" android:layout_width="@dimen/span1" android:layout_height="fill_parent" android:src="@drawable/check_white" android:tint="?editModeIconOnButtonBackground" android:layout_weight="1.0" android:contentDescription="@string/dismiss" />
+</com.tul.aviator.cardsv2.ui.CardEditActionBar>

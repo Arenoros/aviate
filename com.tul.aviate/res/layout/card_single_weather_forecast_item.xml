@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/forecast_condition_description" android:maxLines="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/AppTheme.L2" />
+    <ImageView android:id="@id/forecast_weather_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/hourly_clear_day" android:scaleType="fitCenter" android:layout_below="@id/forecast_condition_description" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/forecast_high_low_temps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/forecast_weather_icon" android:layout_centerHorizontal="true">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/forecast_high_temperature" style="@style/AppTheme.Temperature" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/forecast_low_temperature" android:layout_marginLeft="@dimen/m2" style="@style/AppTheme.Temperature.Low" />
+    </LinearLayout>
+</RelativeLayout>

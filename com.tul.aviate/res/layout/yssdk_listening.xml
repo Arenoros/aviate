@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/listening_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/voice_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/top_padd" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentTop="true" />
+    <Button android:textSize="@dimen/yssdk_button_fontsize" android:textColor="@color/yssdk_ypurple" android:gravity="center" android:id="@id/cancel_button" android:background="@drawable/yssdk_button_round_edges_white" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/yssdk_listening_cancel_button_height" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/yssdk_cancel" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/yssdk_black" android:gravity="center" android:id="@id/text_listeningStatus" android:background="@color/yssdk_translucent_white" android:paddingLeft="16.0dip" android:paddingTop="36.0dip" android:paddingRight="16.0dip" android:paddingBottom="36.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yssdk_voice_listening" android:lines="3" android:singleLine="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/bottom_padd" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="60.0sp" android:textColor="@color/yssdk_ypurple" android:id="@id/microphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

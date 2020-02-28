@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yahoo.aviate.android.ui.view.CardHeaderView android:id="@id/agenda_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/agenda_header_divider" layout="@layout/divider" />
+    <com.yahoo.cards.android.ui.TypefaceTextView android:gravity="center" android:id="@id/agenda_card_no_events" android:padding="@dimen/m5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/agenda_no_events" style="@style/AppTheme.L2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/agenda_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.CardContainerListView android:orientation="vertical" android:id="@id/single_event_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/all_day_header" android:visibility="gone" layout="@layout/card_agenda_item" />
+        <include android:id="@id/all_day_header_bottom_divider" android:visibility="gone" layout="@layout/divider" />
+        <com.yahoo.aviate.android.ui.view.CardContainerListView android:orientation="vertical" android:id="@id/all_day_events" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include android:id="@id/all_day_events_bottom_divider" android:visibility="gone" layout="@layout/divider" />
+        <com.yahoo.aviate.android.ui.view.CardContainerListView android:orientation="vertical" android:id="@id/visible_events" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.yahoo.aviate.android.ui.view.CardContainerListView android:orientation="vertical" android:id="@id/expanded_events" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <com.yahoo.aviate.android.ui.view.CardFooterSwitcherView android:id="@id/agenda_card_footer_switcher_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/agenda_card_footer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

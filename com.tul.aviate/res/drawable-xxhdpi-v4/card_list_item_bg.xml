@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/cards_content_padding" android:top="0.0dip" android:right="@dimen/cards_content_padding" android:bottom="0.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_divider_color" />
+        </shape>
+    </item>
+    <item android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="@dimen/card_divider_height">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark" android:id="@id/toolbar" android:background="@color/streamline_toolbar_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="4.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom" android:id="@id/stream_line_request_feed_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_add" android:tint="@color/white" app:elevation="8.0dip" app:layout_anchor="@id/recycler_view" app:layout_anchorGravity="end|bottom|center" app:fabSize="normal" app:borderWidth="0.0dip" app:useCompatPadding="true" app:backgroundTint="@color/fuji_blue_1A" />
+</android.support.design.widget.CoordinatorLayout>

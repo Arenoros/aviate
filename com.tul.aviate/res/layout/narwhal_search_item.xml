@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/dark10" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image_view" android:layout_width="@dimen/streamline_source_icon_size" android:layout_height="@dimen/streamline_source_icon_size" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cards_content_padding" android:layout_marginRight="@dimen/cards_content_padding" android:layout_weight="1.0">
+            <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Timeline.Title" />
+            <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Timeline.Caption" />
+        </LinearLayout>
+        <ToggleButton android:layout_gravity="center" android:id="@id/switch_item" android:background="@drawable/streamline_check" android:clickable="false" android:layout_width="@dimen/streamline_subscribe_toggle_button_size" android:layout_height="@dimen/streamline_subscribe_toggle_button_size" android:textOn="@null" android:textOff="@null" />
+    </LinearLayout>
+</LinearLayout>

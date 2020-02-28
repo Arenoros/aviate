@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.CollectionView android:orientation="vertical" android:id="@id/collection" android:background="?collectionBackgroundDrawable" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_drawable_side_margin" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/card_drawable_side_margin" android:layout_marginBottom="0.0dip" style="@style/Aviate.Card.Collection"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/collection_header" android:layout_width="fill_parent" android:layout_height="@dimen/app_collection_header_height">
+        <com.tul.aviator.ui.view.common.TintedImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:tint="?homescreenIconColor" style="@style/Aviate.CollectionsIcon" />
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="?homescreenTextColor" android:id="@id/title" style="@style/Aviate.CardTitleText.EditText" />
+        <ImageView android:id="@id/corner_icon" android:src="@drawable/expand_icon" android:tint="?homescreenIconColor" style="@style/Aviate.ActionIcon.Right" />
+    </LinearLayout>
+    <include layout="@layout/collection_base" />
+</com.tul.aviator.ui.view.CollectionView>

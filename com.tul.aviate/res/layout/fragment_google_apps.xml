@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.preinstall.google.GoogleCollectionView android:orientation="vertical" android:id="@id/collection" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Aviate.Card.Collection">
+        <LinearLayout android:orientation="horizontal" android:id="@id/collection_header" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <com.tul.aviator.ui.view.common.TintedImageView android:layout_gravity="center_vertical" android:id="@id/icon" style="@style/Aviate.CollectionsIcon" />
+            <com.tul.aviator.ui.view.AviateTextView android:id="@id/title" style="@style/Aviate.CardTitleText.EditText" />
+            <ImageView android:id="@id/corner_icon" android:visibility="gone" android:src="@drawable/expand_icon" style="@style/Aviate.ActionIcon.Right" />
+        </LinearLayout>
+        <include layout="@layout/collection_base" />
+    </com.tul.aviator.preinstall.google.GoogleCollectionView>
+</LinearLayout>

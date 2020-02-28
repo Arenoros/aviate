@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="yssdk_locale_areTrendingSuggestionsEnabled">true</bool>
+    <bool name="yssdk_locale_isImageGalleryEnabled">false</bool>
+    <bool name="yssdk_locale_isImageSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchPoweredByFlickr">false</bool>
+    <bool name="yssdk_locale_isLocalSearchEnabled">false</bool>
+    <bool name="yssdk_locale_isPoweredByYahoo7">false</bool>
+    <bool name="yssdk_locale_isSafeSearchConfigurable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchModerateOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchOffOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSearchSuggestionEnabled">true</bool>
+    <bool name="yssdk_locale_isVideoSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isVoiceSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isWebSearchPoweredByGoogle">false</bool>
+</resources>

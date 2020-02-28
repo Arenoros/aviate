@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/promo_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:button="http://schemas.android.com/apk/res-auto">
+    <com.usebutton.thirdparty.android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/promo_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Card">
+        <LinearLayout android:orientation="vertical" android:background="@color/btn_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.usebutton.sdk.internal.views.RatioViewPager android:id="@id/promo_carousel" android:layout_width="fill_parent" android:layout_height="0.0dip" button:btn_height_to_width_ratio="1.5" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/promo_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.usebutton.sdk.internal.views.PagerIndicator android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/promo_page_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/promo_product_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_padding" style="@style/CardText.Dark.Small" />
+                    <TextView android:id="@id/promo_product_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_padding" style="@style/CardText.Small.Grey" />
+                    <TextView android:id="@id/promo_product_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_padding" style="@style/CardText.Small.Grey" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/promo_footer" layout="@layout/inventory_one_line" />
+        </LinearLayout>
+    </com.usebutton.thirdparty.android.support.v7.widget.CardView>
+</FrameLayout>

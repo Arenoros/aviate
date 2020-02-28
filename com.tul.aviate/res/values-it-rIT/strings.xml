@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yssdk_locale_defaultSafeSearchSetting">i</string>
+    <string name="yssdk_locale_searchHostURL">it-IT</string>
+    <string name="yssdk_locale_searchIntlString">it</string>
+    <string name="yssdk_locale_voiceSearchLocale">it_IT</string>
+</resources>

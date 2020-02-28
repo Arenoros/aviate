@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/collection_app_recs_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/install_apps_button">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/title" android:text="@string/lazy_onboarding_essential_apps_title" style="@style/LazyOnboardingActivityTitle" />
+            <com.tul.aviator.ui.view.AviateTextView android:textColor="@color/white" android:layout_gravity="center|right" android:id="@id/lazy_onboarding_essential_apps_skip_btn" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aqua_tip_skip" android:textAllCaps="true" />
+        </FrameLayout>
+        <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/subtitle" android:layout_marginBottom="6.0dip" android:text="@string/lazy_onboarding_essential_apps_subtitle" style="@style/LazyOnboardingActivitySubtitle" />
+        <ListView android:layout_gravity="top" android:id="@android:id/list" android:paddingBottom="@dimen/app_rec_essential_padding_bottom" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:overScrollFooter="@null" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="@color/white" android:gravity="center" android:id="@android:id/empty" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/loading_screen_finding_best_apps" android:layout_above="@id/loading_spinner" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/Aviate.TopBarText" />
+        <ProgressBar android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+    <com.tul.aviator.ui.view.AviateTextView android:enabled="false" android:layout_gravity="bottom" android:id="@id/install_apps_button" android:layout_marginTop="0.0dip" android:text="@string/lazy_onboarding_essential_apps_button_disabled" android:layout_alignParentBottom="true" style="@style/LazyOnboardingBtn" />
+</RelativeLayout>

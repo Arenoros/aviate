@@ -1,0 +1,1032 @@
+{
+	"version": 3,
+
+	"sources": [
+		{
+			"name": "Aviate",
+			"description": "Aviate is a source from Yahoo",
+			"id": "aviate",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_aviate"
+		},
+		{
+			"name": "Reddit",
+			"description": "Reddit is an entertainment, social news networking service, and news website",
+			"id": "reddit",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit"
+		},
+		{
+			"name": "National Geographic",
+			"description": "The National Geographic Society is a global nonprofit organization committed to exploring and protecting our planet",
+			"id": "national-geo",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_natgeo"
+		},
+		{
+			"name": "The Verge",
+			"description": "The Verge is an American politically progressive technology news and media network operated by Vox Media",
+			"id": "the-verge",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_verge"
+		},
+		{
+			"name": "New York Times",
+			"description": "The New York Times is an American daily newspaper, founded and continuously published in New York City",
+			"id": "nyt",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_nytimes"
+		},
+		{
+			"name": "Buzzfeed",
+			"description": "Buzzfeed is a social news and entertainment company with a focus on digital media and digital technology",
+			"id": "buzzfeed",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_buzzfeed"
+		},
+		{
+			"name": "Comics",
+			"description": "Receive funny comics",
+			"id": "comics",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit"
+		},
+		{
+			"name": "ESPN",
+			"description": "ESPN is the Entertainment and Sports Programming Network",
+			"id": "espn",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_espn"
+		},
+		{
+			"name": "NBA",
+			"description": "The NBA is the foremost professional basketball league in the United States.",
+			"id": "nba",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_nba"
+		},
+		{
+			"name": "Hacker News",
+			"description": "Hacker News is a social news website focusing on computer science and entrepreneurship",
+			"id": "hacker-news",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_hacker_news"
+		}
+	],
+
+	"feeds": [
+		{
+			"name": "Weather",
+			"id": "aviate-weather",
+			"description": "Prepare for your day with the most accurate weather forecasts",
+			"source_id": "aviate",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_weather_icon",
+			"category_id": "aviate"
+		},
+		{
+			"name": "News Digest",
+			"id": "aviate-news-digest",
+			"description": "Today's top news headlines delivered in quick and visual summaries, twice a day",
+			"source_id": "aviate",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_news_icon",
+			"category_id": "news"
+		},
+		{
+			"name": "Daily Wallpaper",
+			"id": "aviate-daily-wallpaper",
+			"description": "Get beautiful images to use as your wallpaper every day",
+			"source_id": "aviate",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_wallpaper_icon",
+			"category_id": "aviate"
+		},
+		{
+			"name": "Calendar",
+			"id": "aviate-calendar",
+			"description": "Check your day's activities and get reminders",
+			"source_id": "aviate",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_calendar_icon",
+			"category_id": "aviate"
+		},
+		{
+			"name": "World News",
+			"id": "national-geo",
+			"description": "News from the world leader in geography, cartography, and exploration",
+			"source_id": "national-geo",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_natgeo",
+			"category_id":"science"
+		},
+		{
+			"name": "All posts",
+			"id": "the-verge",
+			"description": "Top stories about technology, science, art and culture",
+			"source_id": "the-verge",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_verge",
+			"category_id": "technology"
+		},
+		{
+			"name": "Hot News",
+			"id": "buzzfeed-hot",
+			"description": "The most newsworthy stories from Buzzfeed and the web",
+			"source_id": "buzzfeed",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_buzzfeed",
+			"category_id": "news"
+		},
+		{
+			"name": "Top stories",
+			"id": "hacker-news-top",
+			"description": "Links for the intellectually curious, ranked by readers",
+			"source_id": "hacker-news",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_hacker_news",
+			"category_id": "technology"
+		},
+		{
+			"name": "/r/funny",
+			"id": "reddit-funny",
+			"description": "The most hilarious images on the internet today",
+			"source_id": "reddit",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit",
+			"category_id": "reddit"
+		},
+		{
+			"name": "/r/todayilearned",
+			"id": "reddit-til",
+			"description": "Learn something new everyday",
+			"source_id": "reddit",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit",
+			"category_id": "reddit"
+		},
+		{
+			"name": "/r/aww",
+			"id": "reddit-aww",
+			"description": "Your daily dose of cute",
+			"source_id": "reddit",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit",
+			"category_id": "reddit"
+		},
+		{
+			"name": "/r/pics",
+			"id": "reddit-pics",
+			"description": "The best images on the internet",
+			"source_id": "reddit",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_reddit",
+			"category_id": "reddit"
+		},
+		{
+			"name": "NBA News",
+			"id": "espn-nba",
+			"description": "Get the most important NBA news",
+			"source_id": "espn",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_nba",
+			"category_id": "sports"
+		},
+		{
+			"name": "Golden State Warriors",
+			"id": "nba-warriors",
+			"description": "Get up to date info on the Warriors",
+			"source_id": "nba",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_nba_warriors_icon",
+			"category_id": "sports"
+		},
+		{
+			"name": "Cleveland Cavaliers",
+			"id": "nba-cavaliers",
+			"description": "Get up to date info on the Cavaliers",
+			"source_id": "nba",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_cavs",
+			"category_id": "sports"
+		},
+		{
+			"name": "XKCD",
+			"id": "xkcd",
+			"description": "A web comic about science, mathematics and relationships",
+			"source_id": "comics",
+			"image_url": "android.resource://com.tul.aviate/drawable/streamline_xkcd_icon",
+			"category_id": "funny"
+		}
+	],
+
+	"categories": [
+		{
+			"id": "custom",
+			"name": "Your picks",
+			"rank": "0"
+		},
+		{
+			"id": "news",
+			"name": "News",
+			"rank" : "1"
+		},
+		{
+			"id": "aviate",
+			"name": "Aviate",
+			"rank" : "2"
+		},
+		{
+			"id": "funny",
+			"name": "Funny",
+			"rank" : "3"
+		},
+
+		{
+			"id": "technology",
+			"name": "Technology",
+			"rank" : "4"
+		},
+		{
+			"id": "sports",
+			"name": "Sports",
+			"rank" : "5"
+		},
+		{
+			"id": "fashion_beauty",
+			"name": "Fashion and Beauty",
+			"rank" : "6"
+		},
+		{
+			"id":"food",
+			"name": "Food",
+			"rank" : "7"
+		},
+		{
+			"id":"gaming",
+			"name": "Gaming",
+			"rank" : "8"
+		},
+		{
+			"id":"science",
+			"name": "Science",
+			"rank" : "9"
+		},
+		{
+			"id": "reddit",
+			"name": "Reddit",
+			"rank" : "10"
+		},
+		{
+			"id": "entertainment",
+			"name": "Entertainment",
+			"rank" : "11"
+		},
+		{
+			"id": "business_finance",
+			"name": "Business & Finance",
+			"rank" : "12"
+		},
+		{
+			"id": "healthy_living",
+			"name": "Healthy Living",
+			"rank" : "13"
+		},
+		{
+			"id": "homes_diy",
+			"name": "Homes & DIY",
+			"rank" : "14"
+		},
+		{
+			"id": "kids_parenting",
+			"name": "Kids & Parenting",
+			"rank" : "15"
+		},
+		{
+			"id": "love_relationships",
+			"name": "Love & Relationships",
+			"rank" : "16"
+		},
+		{
+			"id": "photography",
+			"name": "Photography",
+			"rank" : "17"
+		},
+		{
+			"id": "sports",
+			"name": "Sports",
+			"rank" : "18"
+		},
+		{
+			"id": "travel",
+			"name": "Travel",
+			"rank" : "19"
+		}
+	],
+
+	"customFeeds": [
+		{
+			"name" : "Business News",
+			"category_id" : "business_finance",
+			"id" : "http://www.newslookup.com/rss/business/bloomberg.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Bloomberg.jpg",
+			"source_name" : "Bloomberg",
+			"source_id" : "bloomberg"
+		},
+		{
+			"name" : "Business News",
+			"category_id" : "business_finance",
+			"id" : "http://feeds2.feedburner.com/businessinsider",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Business_Insider.jpg",
+			"source_name" : "Business Insider",
+			"source_id" : "business_insider"
+		},
+		{
+			"name" : "Finance News",
+			"category_id" : "business_finance",
+			"id" : "http://rss.cnn.com/rss/money_topstories.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/CNN_Money.png",
+			"source_name" : "CNN Money",
+			"source_id" : "cnn_money"
+		},
+		{
+			"name" : "Finance News",
+			"category_id" : "business_finance",
+			"id" : "http://www.ft.com/rss/markets/currencies",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Financial_Times.png",
+			"source_name" : "Financial Times",
+			"source_id" : "financial_times"
+		},
+		{
+			"name" : "Business News",
+			"category_id" : "business_finance",
+			"id" : "http://www.forbes.com/business/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Forbes.jpg",
+			"source_name" : "Forbes",
+			"source_id" : "forbes"
+		},
+		{
+			"name" : "Business Day",
+			"category_id" : "business_finance",
+			"id" : "http://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_nytimes.png",
+			"source_name" : "New York Times",
+			"source_id" : "nyt"
+		},
+		{
+			"name" : "US Business",
+			"category_id" : "business_finance",
+			"id" : "http://online.wsj.com/xml/rss/3_7014.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/WSJ.jpg",
+			"source_name" : "WSJ",
+			"source_id" : "wsj"
+		},
+		{
+			"name" : "Celebrity News",
+			"category_id" : "entertainment",
+			"id" : "http://www.accesshollywood.com/content/xml/rss/latest_news.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Access_Hollywood.jpg",
+			"source_name" : "Access Hollywood",
+			"source_id" : "access_hollywood"
+		},
+		{
+			"name" : "Music News",
+			"category_id" : "entertainment",
+			"id" : "http://www.billboard.com/rss/the-feed",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Billboard.jpeg",
+			"source_name" : "Billboard",
+			"source_id" : "billboard"
+		},
+		{
+			"name" : "Movies & Celebs",
+			"category_id" : "entertainment",
+			"id" : "http://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/E__Online.jpg",
+			"source_name" : "E! Online",
+			"source_id" : "e_online"
+		},
+		{
+			"name" : "Movies & Celebs",
+			"category_id" : "entertainment",
+			"id" : "http://entertainmentweekly.tumblr.com/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Entertainment_Weekly.png",
+			"source_name" : "Entertainment Weekly",
+			"source_id" : "entertainment_weekly"
+		},
+		{
+			"name" : "Top 10 Movies",
+			"category_id" : "entertainment",
+			"id" : "http://www.fandango.com/rss/top10boxoffice.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Fandango.jpg",
+			"source_name" : "Fandango",
+			"source_id" : "fandango"
+		},
+		{
+			"name" : "Music News",
+			"category_id" : "entertainment",
+			"id" : "http://feeds.feedburner.com/MTVNewsLatest",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/MTV_News.jpg",
+			"source_name" : "MTV News",
+			"source_id" : "mtv_news"
+		},
+		{
+			"name" : "Celebrity News",
+			"category_id" : "entertainment",
+			"id" : "http://www.usmagazine.com/celebrity-news/rss",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_usweekly_icon",
+			"source_name" : "US Weekly",
+			"source_id" : "us_weekly"
+		},
+		{
+			"name" : "Fashion & Beauty",
+			"category_id" : "fashion_beauty",
+			"id" : "http://www.allure.com/rss",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_allure_icon",
+			"source_name" : "Allure",
+			"source_id" : "allure"
+		},
+		{
+			"name" : "Fashion News",
+			"category_id" : "fashion_beauty",
+			"id" : "http://www.businessoffashion.com/syndication/feed",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_bof_icon",
+			"source_name" : "Business of Fashion",
+			"source_id" : "business_of_fashion"
+		},
+		{
+			"name" : "Fashion & Beauty",
+			"category_id" : "fashion_beauty",
+			"id" : "http://feeds.feedburner.com/fashionistacom",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Fashionista.jpeg",
+			"source_name" : "Fashionista",
+			"source_id" : "fashionista"
+		},
+		{
+			"name" : "Men's Style",
+			"category_id" : "fashion_beauty",
+			"id" : "http://www.gq.com/style/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/GQ.jpg",
+			"source_name" : "GQ",
+			"source_id" : "gq"
+		},
+		{
+			"name" : "Beauty",
+			"category_id" : "fashion_beauty",
+			"id" : "http://www.vanityfair.com/style/beauty/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/VanityFair.jpg",
+			"source_name" : "Vanity Fair",
+			"source_id" : "vanity_fair"
+		},
+		{
+			"name" : "Fashion News",
+			"category_id" : "fashion_beauty",
+			"id" : "http://vogue.tumblr.com/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Vogue.jpg",
+			"source_name" : "Vogue",
+			"source_id" : "vogue"
+		},
+		{
+			"name" : "Food News",
+			"category_id" : "food",
+			"id" : "http://www.eater.com/rss/index.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_eater_icon",
+			"source_name" : "Eater",
+			"source_id" : "food_network"
+		},
+		{
+			"name" : "Baking",
+			"category_id" : "food",
+			"id" : "http://www.joythebaker.com/blog/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Joy_the_Baker.jpg",
+			"source_name" : "Joy the Baker",
+			"source_id" : "joy_the_baker"
+		},
+		{
+			"name" : "Baking",
+			"category_id" : "food",
+			"id" : "http://feeds.feedburner.com/MinimalistBaker",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Minimalist_Baker.jpg",
+			"source_name" : "Minimalist Baker",
+			"source_id" : "minimalist_baker"
+		},
+		{
+			"name" : "Food News",
+			"category_id" : "food",
+			"id" : "http://feeds.feedburner.com/seriouseats/recipes",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_serious_eats_icon",
+			"source_name" : "Serious Eats",
+			"source_id" : "serious_eats"
+		},
+		{
+			"name" : "Recipes",
+			"category_id" : "food",
+			"id" : "http://feeds.feedburner.com/seriouseats/recipes",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_serious_eats_icon",
+			"source_name" : "Serious Eats",
+			"source_id" : "serious_eats"
+		},
+		{
+			"name" : "Recipes",
+			"category_id" : "food",
+			"id" : "http://feeds.feedburner.com/smittenkitchen",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Smitten_Kitchen.jpg",
+			"source_name" : "Smitten Kitchen",
+			"source_id" : "smitten_kitchen"
+		},
+		{
+			"name" : "Fail Blog",
+			"category_id" : "funny",
+			"id" : "http://feeds.feedburner.com/failblog",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Fail_Blog.jpeg",
+			"source_name" : "Fail Blog",
+			"source_id" : "fail_blog"
+		},
+		{
+			"name" : "Comics & News",
+			"category_id" : "funny",
+			"id" : "http://www.smbc-comics.com/rss.php",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Saturday_Morning_Breakfast_Cereal.jpg",
+			"source_name" : "Saturday Morning Breakfast Cereal",
+			"source_id" : "saturday_morning_breakfast_cereal"
+		},
+		{
+			"name" : "Funny News",
+			"category_id" : "funny",
+			"id" : "http://www.theonion.com/content/feeds/daily",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Onion.jpg",
+			"source_name" : "The Onion",
+			"source_id" : "the_onion"
+		},
+		{
+			"name" : "Games & Apps",
+			"category_id" : "gaming",
+			"id" : "http://www.androidpolice.com/topics/applications-games/feed/",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_android_police_icon",
+			"source_name" : "Android Police",
+			"source_id" : "android_police"
+		},
+		{
+			"name" : "Video Games",
+			"category_id" : "gaming",
+			"id" : "http://www.gamespot.com/feeds/mashup/",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_gamespot_icon",
+			"source_name" : "Game Spot",
+			"source_id" : "game_spot"
+		},
+		{
+			"name" : "Games & Tech",
+			"category_id" : "gaming",
+			"id" : "http://feeds.gawker.com/kotaku/vip",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Kotaku.jpg",
+			"source_name" : "Kotaku",
+			"source_id" : "kotaku"
+		},
+		{
+			"name" : "Game News",
+			"category_id" : "gaming",
+			"id" : "http://www.polygon.com/rss/index.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_polygon_icon",
+			"source_name" : "Polygon",
+			"source_id" : "polygon"
+		},
+		{
+			"name" : "Games & Tech",
+			"category_id" : "gaming",
+			"id" : "http://feeds.wired.com/wired/index",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_wired_icon",
+			"source_name" : "WIRED",
+			"source_id" : "wired"
+		},
+		{
+			"name" : "Healthy Eating",
+			"category_id" : "healthy_living",
+			"id" : "http://blog.foodnetwork.com/healthyeats/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Food_Network.jpg",
+			"source_name" : "Food Network",
+			"source_id" : "food_network"
+		},
+		{
+			"name" : "Healthy Lifestyle",
+			"category_id" : "healthy_living",
+			"id" : "http://feeds.feedblitz.com/greatist",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Greatist.jpg",
+			"source_name" : "Greatist",
+			"source_id" : "greatist"
+		},
+		{
+			"name" : "Vegan Recipes",
+			"category_id" : "healthy_living",
+			"id" : "http://kblog.lunchboxbunch.com/feeds/posts/default",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/kblog.png",
+			"source_name" : "kblog",
+			"source_id" : "kblog"
+		},
+		{
+			"name" : "Health & Fitness",
+			"category_id" : "healthy_living",
+			"id" : "http://www.marksdailyapple.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Marks_Daily_Apple.jpg",
+			"source_name" : "Mark's Daily Apple",
+			"source_id" : "marks_daily_apple"
+		},
+		{
+			"name" : "Healthy Living",
+			"category_id" : "healthy_living",
+			"id" : "http://fitnessista.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Fitnessista.jpeg",
+			"source_name" : "The Fitnessista",
+			"source_id" : "the_fitnessista"
+		},
+		{
+			"name" : "Health & Wellness",
+			"category_id" : "healthy_living",
+			"id" : "http://www.huffingtonpost.com/feeds/verticals/healthy-living/index.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Huffington_Post.png",
+			"source_name" : "The Huffington Post",
+			"source_id" : "the_huffington_post"
+		},
+		{
+			"name" : "Crafts",
+			"category_id" : "homes_diy",
+			"id" : "http://diyallthings.blogspot.com/feeds/posts/default?alt=rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/DIY_Craft_Projects.jpg",
+			"source_name" : "DIY Craft Projects",
+			"source_id" : "diy_craft_projects"
+		},
+		{
+			"name" : "Hacks & News",
+			"category_id" : "homes_diy",
+			"id" : "http://www.hackaday.com/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Hackaday.png",
+			"source_name" : "Hackaday",
+			"source_id" : "hackaday"
+		},
+		{
+			"name" : "DIY Creations",
+			"category_id" : "homes_diy",
+			"id" : "http://www.instructables.com/tag/type:instructable/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Instructables.jpg",
+			"source_name" : "Instructables",
+			"source_id" : "instructables"
+		},
+		{
+			"name" : "Daily DIY",
+			"category_id" : "homes_diy",
+			"id" : "http://www.wikihow.com/feed.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/wikiHow.jpeg",
+			"source_name" : "wikiHow",
+			"source_id" : "wikihow"
+		},
+		{
+			"name" : "Moms",
+			"category_id" : "kids_parenting",
+			"id" : "http://alphamom.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Alpha_Mom.png",
+			"source_name" : "Alpha Mom",
+			"source_id" : "alpha_mom"
+		},
+		{
+			"name" : "Childbirth",
+			"category_id" : "kids_parenting",
+			"id" : "http://feeds.feedburner.com/BirthWithoutFear",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Birth_Without_Fear.jpg",
+			"source_name" : "Birth Without Fear",
+			"source_id" : "birth_without_fear"
+		},
+		{
+			"name" : "Pregnancy Care",
+			"category_id" : "kids_parenting",
+			"id" : "http://www.fitpregnancy.com/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Fit_Pregnancy_and_Baby.png",
+			"source_name" : "Fit Pregnancy and Baby",
+			"source_id" : "fit_pregnancy_and_baby"
+		},
+		{
+			"name" : "Kid Activities",
+			"category_id" : "kids_parenting",
+			"id" : "http://feeds.feedburner.com/TipsForMomsActivitiesForKidsByQuirkyMommas",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Kids_Activities_Blog.jpg",
+			"source_name" : "Kids Activities Blog",
+			"source_id" : "kids_activities_ blog"
+		},
+		{
+			"name" : "Parenting Tips",
+			"category_id" : "kids_parenting",
+			"id" : "http://feeds.feedburner.com/modernparentsmessykids/pHkV",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Modern_Parents_Messy_Kids.jpeg",
+			"source_name" : "Modern Parents Messy Kids",
+			"source_id" : "modern_parents_messy_kids"
+		},
+		{
+			"name" : "Kid-Friendly Meals",
+			"category_id" : "kids_parenting",
+			"id" : "http://www.superhealthykids.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Super_Healthy_Kids.png",
+			"source_name" : "Super Healthy Kids",
+			"source_id" : "super_healthy_kids"
+		},
+		{
+			"name" : "Kid Crafts",
+			"category_id" : "kids_parenting",
+			"id" : "http://tinkerlab.com/?feed=rss2",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/TinkerLab.jpg",
+			"source_name" : "TinkerLab",
+			"source_id" : "tinkerlab"
+		},
+		{
+			"name" : "Relationship Advice",
+			"category_id" : "love_relationships",
+			"id" : "https://captainawkward.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Captain_Awkward.jpg",
+			"source_name" : "Captain Awkward",
+			"source_id" : "captain_awkward"
+		},
+		{
+			"name" : "Dating",
+			"category_id" : "love_relationships",
+			"id" : "http://www.lovepanky.com/feed",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/LovePanky_.jpg",
+			"source_name" : "LovePanky",
+			"source_id" : "lovepanky"
+		},
+		{
+			"name" : "Relationship Culture",
+			"category_id" : "love_relationships",
+			"id" : "http://www.nytimes.com/svc/collections/v1/publish/www.nytimes.com/column/modern-love/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/New_York_Times.jpg",
+			"source_name" : "Modern Love",
+			"source_id" : "modern_love"
+		},
+		{
+			"name" : "Dating Advice",
+			"category_id" : "love_relationships",
+			"id" : "http://feeds.feedburner.com/PagingDrNerdlove",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Paging_Dr._NerdLove.jpg",
+			"source_name" : "Paging Dr. NerdLove",
+			"source_id" : "paging_dr_nerdlove"
+		},
+		{
+			"name" : "Dating Psychology",
+			"category_id" : "love_relationships",
+			"id" : "https://www.psychologytoday.com/topics/relationships/feed",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Psychology_Today.jpg",
+			"source_name" : "Psychology Today",
+			"source_id" : "psychology_today"
+		},
+		{
+			"name" : "Relationships",
+			"category_id" : "love_relationships",
+			"id" : "https://rss.sciencedaily.com/mind_brain/relationships.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/ScienceDaily.png",
+			"source_name" : "ScienceDaily",
+			"source_id" : "science_daily"
+		},
+		{
+			"name" : "Romantic Ideas",
+			"category_id" : "love_relationships",
+			"id" : "http://www.thedatingdivas.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Dating_Divas.jpg",
+			"source_name" : "The Dating Divas",
+			"source_id" : "the_dating_divas"
+		},
+		{
+			"name" : "Marriage",
+			"category_id" : "love_relationships",
+			"id" : "http://www.the-generous-wife.com/feed/",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Generous_Wife.jpg",
+			"source_name" : "The Generous Wife",
+			"source_id" : "the_generous_wife"
+		},
+		{
+			"name" : "Top Stories",
+			"category_id" : "news",
+			"id" : "http://rss.cnn.com/rss/cnn_topstories.rss",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_cnn_icon",
+			"source_name" : "CNN",
+			"source_id" : "cnn"
+		},
+		{
+			"name" : "News Headlines",
+			"category_id" : "news",
+			"id" : "http://www.foxnews.com/xmlfeed/rss/0,4313,0,00.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Fox_News.jpg",
+			"source_name" : "Fox News",
+			"source_id" : "fox_news"
+		},
+		{
+			"name" : "Breaking Stories",
+			"category_id" : "news",
+			"id" : "http://www.npr.org/rss/rss.php?id=1001",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/NPR.jpg",
+			"source_name" : "NPR",
+			"source_id" : "npr"
+		},
+		{
+			"name" : "Top News",
+			"category_id" : "news",
+			"id" : "http://feeds.reuters.com/reuters/topNews?irpc=69",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_reuters_icon",
+			"source_name" : "Reuters",
+			"source_id" : "reuters"
+		},
+		{
+			"name" : "Pop Culture",
+			"category_id" : "news",
+			"id" : "http://feeds.feedburner.com/thedailybeast/articles?format=xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/The_Daily_Beast.jpg",
+			"source_name" : "The Daily Beast",
+			"source_id" : "the_daily_beast"
+		},
+		{
+			"name" : "Editor's Choice",
+			"category_id" : "photography",
+			"id" : "http://feed.500px.com/500px-editors",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/500px.jpg",
+			"source_name" : "500px",
+			"source_id" : "500px"
+		},
+		{
+			"name" : "The Big Picture",
+			"category_id" : "photography",
+			"id" : "http://www.boston.com/bigpicture/index.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Boston_Globe.png",
+			"source_name" : "Boston Globe",
+			"source_id" : "boston_globe"
+		},
+		{
+			"name" : "Photo of the Day",
+			"category_id" : "photography",
+			"id" : "http://feeds.feedburner.com/EarthShots",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Earth_Shots.jpg",
+			"source_name" : "Earth Shots",
+			"source_id" : "earth_shots"
+		},
+		{
+			"name" : "Photography News",
+			"category_id" : "photography",
+			"id" : "http://feeds.feedburner.com/PetaPixel",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/PetaPixel.jpg",
+			"source_name" : "PetaPixel",
+			"source_id" : "petapixel"
+		},
+		{
+			"name" : "Science News",
+			"category_id" : "science",
+			"id" : "http://dsc.discovery.com/rss/topic/?topic=gear-gadgets",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Discovery.jpg",
+			"source_name" : "Discovery",
+			"source_id" : "Discovery"
+		},
+		{
+			"name" : "Science News",
+			"category_id" : "science",
+			"id" : "http://www.nature.com/nature/current_issue/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Nature.png",
+			"source_name" : "Nature",
+			"source_id" : "nature"
+		},
+		{
+			"name" : "Pop Sci",
+			"category_id" : "science",
+			"id" : "http://www.popsci.com/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Popular_Science.jpg",
+			"source_name" : "Popular Science",
+			"source_id" : "popular_science"
+		},
+		{
+			"name" : "Science: Current Issue",
+			"category_id" : "science",
+			"id" : "http://www.sciencemag.org/rss/current.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_sci_mag_icon",
+			"source_name" : "Science Magazine",
+			"source_id" : "science_magazine"
+		},
+		{
+			"name" : "Soccer News",
+			"category_id" : "sports",
+			"id" : "http://feeds.bbci.co.uk/sport/rss.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_bbc_icon",
+			"source_name" : "BBC",
+			"source_id" : "bbc"
+		},
+		{
+			"name" : "Tennis News",
+			"category_id" : "sports",
+			"id" : "http://news.bbc.co.uk/rss/sportonline_world_edition/tennis/rss091.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_bbc_icon",
+			"source_name" : "BBC",
+			"source_id" : "bbc"
+		},
+		{
+			"name" : "Sports News",
+			"category_id" : "sports",
+			"id" : "http://bleacherreport.com/articles/feed",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/BleacherReport.jpg",
+			"source_name" : "Bleacher Report",
+			"source_id" : "bleacher_report"
+		},
+		{
+			"name" : "Football News",
+			"category_id" : "sports",
+			"id" : "http://www.nfl.com/rss/rsslanding?searchString=home",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/NFL.jpg",
+			"source_name" : "NFL",
+			"source_id" : "nfl"
+		},
+		{
+			"name" : "MMA News",
+			"category_id" : "sports",
+			"id" : "http://www.ufc.com/rss/news",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/UFC.jpg",
+			"source_name" : "UFC",
+			"source_id" : "ufc"
+		},
+		{
+			"name" : "Esports News",
+			"category_id" : "sports",
+			"id" : "https://esports.yahoo.com/rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/YahooEsports.jpg",
+			"source_name" : "Yahoo! Esports",
+			"source_id" : "Yahoo! Esports"
+		},
+		{
+			"name" : "Sports News",
+			"category_id" : "sports",
+			"id" : "http://sports.yahoo.com/top/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/YahooSports.jpeg",
+			"source_name" : "Yahoo! Sports",
+			"source_id" : "yahoo_sports"
+		},
+		{
+			"name" : "MLB News",
+			"category_id" : "sports",
+			"id" : "http://sports.yahoo.com/mlb/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/YahooSports.jpeg",
+			"source_name" : "Yahoo! Sports",
+			"source_id" : "yahoo_sports"
+		},
+		{
+			"name" : "Puck Daddy NHL",
+			"category_id" : "sports",
+			"id" : "http://sports.yahoo.com/nhl/blog/puck_daddy/rss.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/YahooSports.jpeg",
+			"source_name" : "Yahoo! Sports",
+			"source_id" : "yahoo_sports"
+		},
+		{
+			"name" : "Gadgets",
+			"category_id" : "technology",
+			"id" : "http://www.engadget.com/rss-full.xml",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Engadget.jpg",
+			"source_name" : "Engadget",
+			"source_id" : "engadget"
+		},
+		{
+			"name" : "Tech & Science",
+			"category_id" : "technology",
+			"id" : "http://feeds.gawker.com/gizmodo/full",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161027/Gizmodo.jpg",
+			"source_name" : "Gizmodo",
+			"source_id" : "gizmodo"
+		},
+		{
+			"name" : "Technology News",
+			"category_id" : "technology",
+			"id" : "http://feeds.mashable.com/Mashable",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_mashable_icon",
+			"source_name" : "Mashable",
+			"source_id" : "mashable"
+		},
+		{
+			"name" : "Technology News",
+			"category_id" : "technology",
+			"id" : "https://techcrunch.com/feed/",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_techcrunch_icon",
+			"source_name" : "TechCrunch",
+			"source_id" : "techcrunch"
+		},
+		{
+			"name" : "Travel News",
+			"category_id" : "travel",
+			"id" : "http://www.cntraveler.com/feeds/full.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Conde___Nast_Traveler.jpg",
+			"source_name" : "Condé Nast Traveler",
+			"source_id" : "conde_nast_traveler"
+		},
+		{
+			"name" : "Travel Blog",
+			"category_id" : "travel",
+			"id" : "http://blog.startle.com/feed",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Forbes_Travel_Guide.jpg",
+			"source_name" : "Forbes Travel Guide",
+			"source_id" : "forbes_travel_guide"
+		},
+		{
+			"name" : "Travel News",
+			"category_id" : "travel",
+			"id" : "http://feeds.feedburner.com/MatadorNetwork",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Matador_Network.png",
+			"source_name" : "Matador Network",
+			"source_id" : "matador_network"
+		},
+		{
+			"name" : "Travel News",
+			"category_id" : "travel",
+			"id" : "http://www.nytimes.com/services/xml/rss/nyt/Travel.xml",
+			"image_url" : "android.resource://com.tul.aviate/drawable/streamline_nytimes.png",
+			"source_name" : "New York Times",
+			"source_id" : "nyt"
+		},
+		{
+			"name" : "Travel Points",
+			"category_id" : "travel",
+			"id" : "http://feeds.feedburner.com/thepointsguy",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/The_Points_Guy.jpg",
+			"source_name" : "The Points Guy",
+			"source_id" : "the_points_guy"
+		},
+		{
+			"name" : "Top Destinations",
+			"category_id" : "travel",
+			"id" : "http://www.tourism-review.com/top10-news.rss",
+			"image_url" : "https://s.yimg.com/dh/ap/default/161026/Tourism_Review.jpg",
+			"source_name" : "Tourism Review",
+			"source_id" : "tourism_review"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_category_picker_v2" android:background="#ffeaeaee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:textColorSecondary="@color/solid_white" android:id="@id/toolbar" android:background="#c82d2d2d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:titleTextColor="@android:color/white" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pb_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" style="@style/Widget.AppCompat.ProgressBar" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rv_categories" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_vertical_margin" />
+</LinearLayout>

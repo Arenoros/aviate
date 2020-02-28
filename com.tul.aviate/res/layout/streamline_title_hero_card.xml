@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/broadway_minicard_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="150.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/image_view">
+        <TextView android:textStyle="normal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:maxLines="1" android:layout_toLeftOf="@id/call_to_action" style="@style/Timeline.Title" />
+        <TextView android:id="@id/sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/call_to_action" android:layout_below="@id/title" style="@style/Timeline.Body" />
+        <TextView android:textSize="@dimen/app_center_ad_button_text_size" android:textColor="@color/gray" android:id="@id/call_to_action" android:background="@drawable/streamline_ad_call_to_action" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_center_ad_button_margin_right" android:layout_marginRight="@dimen/app_center_ad_button_margin_right" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="Learn More" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sponsored_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/app_center_dollar_sign_margin_top" android:layout_marginRight="@dimen/app_center_dollar_sign_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="10.0dip" android:id="@id/sponsoredText" style="@style/FacebookSponsoredText" />
+        <FrameLayout android:id="@id/dollarSign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/app_center_dollar_sign_margin_right" />
+    </LinearLayout>
+</RelativeLayout>

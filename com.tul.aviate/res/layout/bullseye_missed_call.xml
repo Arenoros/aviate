@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bullseyeMissedCall" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/card_item_divider_vertical" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:textSize="17.0sp" android:textColor="@color/missed_call_title_gray" android:id="@id/title" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/missed_call_header" style="@style/SmallText" />
+        <RelativeLayout android:id="@id/contact_info_container" android:paddingLeft="@dimen/card_basic_padding" android:paddingRight="@dimen/card_basic_padding" android:paddingBottom="@dimen/card_basic_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tul.aviator.ui.view.ContactImageView android:layout_gravity="center_vertical" android:id="@id/iv_contact" android:layout_width="@dimen/people_onboarding_icon_size" android:layout_height="@dimen/people_onboarding_icon_size" android:layout_marginRight="@dimen/card_basic_padding" android:layout_alignParentLeft="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/people_onboarding_icon_size" android:layout_toRightOf="@id/iv_contact">
+                <com.tul.aviator.ui.view.AviateTextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/missed_call_tv_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" aviate:customFont="GothamNarrSSm-Medium.otf" style="@style/SmallText" />
+                <com.tul.aviator.ui.view.AviateTextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/missed_call_tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SmallText" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:id="@id/missed_call_action_call_back" layout="@layout/horizontal_icon_text_view" />
+    <include android:id="@id/missed_call_action_message" layout="@layout/horizontal_icon_text_view" />
+    <include android:id="@id/missed_call_action_remind" android:visibility="gone" layout="@layout/horizontal_icon_text_view" />
+    <FrameLayout android:id="@id/missed_call_agent_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

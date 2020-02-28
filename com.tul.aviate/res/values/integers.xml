@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="yssdk_max_image_size">2048</integer>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="DEBUG_LEVEL">5</integer>
+    <integer name="LOG_FILE_MAX_SIZE">250000</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <item type="integer" name="btn_animation_short">@android:integer/config_shortAnimTime</item>
+    <integer name="btn_lb_card_activated_animation_duration">150</integer>
+    <integer name="btn_lb_card_selected_animation_delay">400</integer>
+    <integer name="btn_lb_card_selected_animation_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="google_play_services_version">8487000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="themePickerNumColumns">2</integer>
+    <integer name="yssdk_error_line_textview_seperator">1</integer>
+    <integer name="yssdk_page_margin">3</integer>
+    <integer name="yssdk_video_background_scale_factor">250</integer>
+</resources>

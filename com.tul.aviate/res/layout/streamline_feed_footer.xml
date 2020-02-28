@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/streamline_list_card_footer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/streamline_divider" android:layout_width="fill_parent" android:layout_height="@dimen/streamline_feed_divider_height" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/fuji_blue_1A" android:gravity="center" android:id="@id/footer_text" android:paddingTop="@dimen/streamline_feed_footer_padding" android:paddingBottom="@dimen/streamline_feed_footer_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/streamline_more" android:textAllCaps="true" android:fontFamily="sans-serif" />
+    <View android:background="@drawable/streamline_divider" android:layout_width="fill_parent" android:layout_height="@dimen/streamline_feed_divider_height" />
+</LinearLayout>

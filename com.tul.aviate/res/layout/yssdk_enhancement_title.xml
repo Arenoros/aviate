@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.share.search.ui.view.EnhancementTitleView android:orientation="vertical" android:id="@id/enhancement_title_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_enhancement_icon_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/is_powered_by_google" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/yssdk_enhancement_text_size" android:textColor="#ff888888" android:id="@id/is_powered_by_google_text" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/yssdk_search_enhancement_no_trans" />
+        <ImageView android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="7.0dip" android:src="@drawable/yssdk_google_icon" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/is_powered_by_flickr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/yssdk_enhancement_text_size" android:textColor="#ff888888" android:id="@id/is_powered_by_flickr_text" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/yssdk_search_enhancement_no_trans" />
+        <ImageView android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="7.0dip" android:src="@drawable/yssdk_flickr_icon" />
+    </LinearLayout>
+</com.yahoo.mobile.client.share.search.ui.view.EnhancementTitleView>

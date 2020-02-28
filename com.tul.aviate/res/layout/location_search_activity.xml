@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.common.BorderedRelativeLayout android:orientation="vertical" android:id="@id/top_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" aviate:borderColor="@color/dark20" aviate:borderBottomWidth="@dimen/pixel3">
+        <com.tul.aviator.ui.view.LocationSearchBar android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    </com.tul.aviator.ui.view.common.BorderedRelativeLayout>
+    <ListView android:id="@id/resolved_locations" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tul.aviator.ui.view.AviateBannerView android:id="@id/bot_frame" android:background="@color/warningRed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_connectivity_problem" />
+</LinearLayout>

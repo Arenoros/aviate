@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/yssdk_web_suggest_icon_padding" android:top="@dimen/yssdk_web_suggest_icon_padding" android:right="@dimen/yssdk_web_suggest_icon_padding" android:bottom="@dimen/yssdk_web_suggest_icon_padding">
+        <bitmap android:gravity="center" android:src="@drawable/yssdk_search_clock" />
+    </item>
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.aviate.android.cards.SportsMatchView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.aviate.android.ui.view.CardSubTextView android:id="@id/sports_sub_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.yahoo.aviate.android.ui.view.SportsTeamView android:id="@id/sports_team_away" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.yahoo.aviate.android.ui.view.SportsTeamView android:id="@id/sports_team_home" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/footer_divider" layout="@layout/divider" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/details_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <include android:id="@id/footer_view_divider" layout="@layout/vertical_divider" />
+            <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/highlights_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</com.yahoo.aviate.android.cards.SportsMatchView>

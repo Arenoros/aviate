@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.common.BorderedLinearLayout android:id="@id/header" android:background="@android:color/white" android:paddingLeft="0.0dip" style="@style/Aviate.TopBar">
+        <com.tul.aviator.ui.view.common.TintedImageView android:id="@id/back_btn" android:src="@drawable/action_back" android:tint="?textDark" android:contentDescription="@string/back_button" style="@style/Aviate.ActionIcon" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/title" android:text="@string/share_homescreen" style="@style/Aviate.TopBarText" />
+    </com.tul.aviator.ui.view.common.BorderedLinearLayout>
+    <com.tul.aviator.ui.view.common.BorderedFrameLayout android:background="?baseBackground" android:padding="@dimen/span1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" aviate:borderBottomColor="?borderDarkOnBaseBackground" aviate:borderBottomWidth="@dimen/pixel1">
+        <com.tul.aviator.ui.view.common.BorderedImageView android:layout_gravity="center" android:id="@id/screenshot" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/home_screen" aviate:borderColor="@android:color/white" aviate:avBorderWidth="7.0dip" />
+    </com.tul.aviator.ui.view.common.BorderedFrameLayout>
+    <ViewSwitcher android:layout_gravity="center" android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="@dimen/span1" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" style="?android:attr/progressBarStyle" />
+            <com.tul.aviator.ui.view.AviateTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preparing_screenshot" style="@style/MediumText" />
+        </LinearLayout>
+        <com.tul.aviator.ui.view.SocialShareButtons android:gravity="center_horizontal" android:id="@id/share_buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ViewSwitcher>
+</LinearLayout>

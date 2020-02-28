@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tul.aviator.ui.view.common.BorderedLinearLayout android:orientation="horizontal" style="@style/Aviate.TopBarSimple"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" android:src="@drawable/small_back" style="@style/Aviate.TopBarSimpleBack" />
+    <com.tul.aviator.ui.view.AviateTextView android:gravity="center|left" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Aviate.TopBarSimpleText" />
+</com.tul.aviator.ui.view.common.BorderedLinearLayout>

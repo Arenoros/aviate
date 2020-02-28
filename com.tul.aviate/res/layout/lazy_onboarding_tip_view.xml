@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lazy_tip_solid_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_onboarding_tip_title" style="@style/LazyOnboardingTipTitle" />
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_onboarding_tip_body" style="@style/LazyOnboardingTipBody" />
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_onboarding_tip_btn" style="@style/LazyOnboardingTipButton" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.AviateTextView android:id="@id/text" android:paddingLeft="@dimen/onboarding_title_padding_left_right" android:paddingRight="@dimen/onboarding_title_padding_left_right" android:layout_marginTop="@dimen/onboarding_set_default_top_margin" android:text="@string/onboarding_ready_wait" style="@style/OnboardingTitle" />
+    <ProgressBar android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/progress" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="80.0dip" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="18.0sp" android:id="@id/try_again_button" android:visibility="gone" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/onboarding_ready_try_again" style="@style/OnboardingButton" />
+</LinearLayout>

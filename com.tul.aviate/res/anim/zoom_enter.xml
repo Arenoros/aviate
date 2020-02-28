@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale android:duration="@android:integer/config_mediumAnimTime" android:pivotX="50.0%p" android:pivotY="50.0%p" android:fromXScale="29.999996%" android:toXScale="100.0%" android:fromYScale="29.999996%" android:toYScale="100.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

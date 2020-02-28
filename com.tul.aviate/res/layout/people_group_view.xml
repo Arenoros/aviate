@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/people_space_side_padding" android:paddingTop="@dimen/people_top_padding" android:paddingRight="@dimen/people_space_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="@dimen/people_group_view_text_size" android:textColor="?peopleTextLight" android:gravity="center_vertical" android:id="@id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" aviate:customFont="GothamSSm-Medium.otf" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress_bar" android:padding="20.0dip" android:layout_width="90.0dip" android:layout_height="90.0dip" />
+    <com.tul.aviator.ui.view.ContactsGridLayout android:layout_gravity="center_horizontal" android:id="@id/contacts_grid_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tul.aviator.ui.view.RecentsContactsGridLayout android:layout_gravity="center_horizontal" android:id="@id/recents_contacts_grid_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/gossip_item_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/yssdk_search_suggest_tip_size">
+        <TextView android:textColor="@color/yssdk_searchassist_text" android:ellipsize="middle" android:gravity="center|left" android:id="@id/assist_text" android:background="@drawable/yssdk_searchassist_bgd" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Search Tip" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="0.9" style="@style/Search.Suggest.List" />
+        <TextView android:textColor="@color/yssdk_gray" android:ellipsize="end" android:gravity="center" android:layout_gravity="right" android:id="@id/add" android:background="@drawable/yssdk_searchassist_bgd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/yssdk_querybuilder_icon" android:singleLine="true" android:layout_weight="0.1" style="@style/Search.Suggest.List" />
+        <TextView android:textColor="@color/yssdk_gray" android:ellipsize="end" android:gravity="center" android:layout_gravity="right" android:id="@id/trending_icon" android:background="@drawable/yssdk_searchassist_bgd" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/yssdk_trending_icon" android:singleLine="true" android:layout_weight="0.1" style="@style/Search.Suggest.List" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/searchassist_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

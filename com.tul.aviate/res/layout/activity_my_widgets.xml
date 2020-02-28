@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?spaceBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header" layout="@layout/simple_header" />
+        <include android:id="@id/card_edit_bar" android:visibility="gone" layout="@layout/card_edit_bar" />
+    </FrameLayout>
+    <fragment android:name="com.tul.aviator.ui.WidgetListFragment" android:id="@id/widget_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.tul.aviator.ui.WidgetListFragment" />
+</LinearLayout>

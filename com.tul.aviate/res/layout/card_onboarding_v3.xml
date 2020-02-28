@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/yahoo_login_card" android:background="@drawable/card_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.yahoo.aviate.android.ui.view.GradientCardHeaderView android:layout_gravity="center" android:id="@id/gradient_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+        <com.yahoo.aviate.android.ui.view.CardSettingsButton android:layout_gravity="right" android:id="@id/settings_button" android:tint="@color/white" style="@style/AppTheme.CardSettingsButton" />
+    </FrameLayout>
+    <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/set_location_text" android:padding="@dimen/cards_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.L1" />
+    <com.yahoo.aviate.android.ui.view.CardFooterView android:id="@id/footer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

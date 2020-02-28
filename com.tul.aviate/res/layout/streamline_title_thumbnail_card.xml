@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/broadway_minicard_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="normal" android:id="@id/title" android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="0.0dip" android:layout_height="@dimen/streamline_main_thumbnail_size" android:lines="3" android:layout_weight="1.0" style="@style/Timeline.Title" />
+    <ImageView android:id="@id/image_view" android:layout_width="@dimen/streamline_main_thumbnail_size" android:layout_height="@dimen/streamline_main_thumbnail_size" android:scaleType="centerCrop" />
+</LinearLayout>

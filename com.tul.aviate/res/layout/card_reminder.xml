@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="700.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/cards_content_padding" android:paddingTop="@dimen/card_header_vertical_padding" android:paddingRight="@dimen/cards_content_padding" android:paddingBottom="@dimen/card_header_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/subtitle" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:text="@string/agenda_new_reminder" android:includeFontPadding="false" style="@style/Cards.l2" />
+        <EditText android:id="@id/reminderText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" style="@style/Cards.l1" />
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/agent_view" />
+</LinearLayout>

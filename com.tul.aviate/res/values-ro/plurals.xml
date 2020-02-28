@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badge_notification">
+        <item quantity="other">%1$s, %2$d Notificări</item>
+        <item quantity="one">%1$s, %2$d Notificare</item>
+        <item quantity="two">%1$s, %2$d Notificări</item>
+        <item quantity="few">%1$s, %2$d Notificări</item>
+        <item quantity="many">%1$s, %2$d Notificări</item>
+    </plurals>
+    <plurals name="bulky_finished_content">
+        <item quantity="other">Ați instalat %d aplicații noi</item>
+        <item quantity="one">Ați instalat %d aplicație nouă</item>
+        <item quantity="few">Ați instalat %d aplicații noi</item>
+        <item quantity="many">Ați instalat %d aplicații noi</item>
+    </plurals>
+    <plurals name="install_x_app">
+        <item quantity="other">Instalați %d aplicații</item>
+        <item quantity="one">Instalați %d aplicație</item>
+        <item quantity="few">Instalați %d aplicații</item>
+        <item quantity="many">Instalați %d aplicații</item>
+    </plurals>
+    <plurals name="x_days">
+        <item quantity="other">%d zile</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="few">%d zile</item>
+        <item quantity="many">%d zile</item>
+    </plurals>
+    <plurals name="x_hrs">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
+    </plurals>
+    <plurals name="x_mins">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">%d minute</item>
+    </plurals>
+    <plurals name="x_seconds">
+        <item quantity="other">%d secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">%d secunde</item>
+    </plurals>
+</resources>

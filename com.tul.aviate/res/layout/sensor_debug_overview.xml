@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/sensor_debug_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/sensor_debug_vert">
+        <LinearLayout style="@style/sensor_debug_horz_centered">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See Latest Readings" android:onClick="showLatestSensorReadings" />
+            <Button android:id="@id/sensor_debug_show_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See Histories" style="?android:attr/buttonStyleSmall" />
+        </LinearLayout>
+        <LinearLayout style="@style/sensor_debug_horz_centered">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Client App Context Profile" android:onClick="showClientAppContextProfile" />
+        </LinearLayout>
+        <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+        <LinearLayout style="@style/sensor_debug_vert">
+            <TextView android:text="Logging Status" style="@style/sensor_debug_section" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableLayout android:id="@id/sensor_debug_table_logger_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" />
+                <Button android:id="@id/sensor_debug_reset_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset" android:layout_alignParentRight="true" style="?android:attr/buttonStyleSmall" />
+            </RelativeLayout>
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <TextView android:text="Subsystem / Sensor Status" style="@style/sensor_debug_section" />
+            <TableLayout android:id="@id/sensor_debug_table_subsystem_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="0" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <Button android:id="@id/sensor_debug_create_fake_reading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fake Readings" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <TextView android:text="Event Counters" style="@style/sensor_debug_section" />
+            <TableLayout android:id="@id/sensor_debug_table_event_counts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <TextView android:text="Play Svcs Location Updates" style="@style/sensor_debug_section" />
+            <TableLayout android:id="@id/sensor_debug_table_location_counts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <LinearLayout style="@style/sensor_debug_vert">
+                <Button android:id="@id/sensor_debug_check_lastbestloc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Geolocation.getBestCurrentLocation()" />
+                <Button android:id="@id/sensor_debug_check_locationmanager_locs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LocationManager locations" />
+            </LinearLayout>
+            <TextView android:text="Sensor Readings &amp; Clients" style="@style/sensor_debug_section" />
+            <TableLayout android:id="@id/sensor_debug_table_filters_clients" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+            <TextView android:text="Time and Distance Constants" style="@style/sensor_debug_section" />
+            <TableLayout android:id="@id/sensor_debug_table_constants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

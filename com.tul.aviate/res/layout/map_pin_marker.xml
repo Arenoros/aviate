@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.android.broadway.views.MapPinMarkerView android:textSize="@dimen/map_marker_pin_text_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/map_pin_label" android:background="@drawable/bw_map_pin" android:paddingLeft="@dimen/map_marker_pin_left_padding" android:paddingTop="@dimen/map_marker_pin_top_padding" android:paddingRight="@dimen/map_marker_pin_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

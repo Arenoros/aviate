@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="yssdk_max_image_size">1024</integer>
+</resources>

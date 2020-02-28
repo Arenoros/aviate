@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?baseBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/add_collection_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:background="?dimmingBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/title" android:text="@string/lazy_onboarding_choose_collections_title" style="@style/LazyOnboardingActivityTitle" />
+        <com.tul.aviator.ui.view.common.MaxLineTextView android:id="@id/subtitle" style="@style/LazyOnboardingActivitySubtitle" />
+        <GridView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="20.0dip" android:numColumns="auto_fit" android:layout_weight="1.0" />
+        <com.tul.aviator.ui.view.AviateTextView android:id="@id/lazy_choose_collections_next_btn" android:layout_marginTop="0.0dip" android:text="@string/onboarding_button_next" style="@style/LazyOnboardingBtn" />
+    </LinearLayout>
+</FrameLayout>

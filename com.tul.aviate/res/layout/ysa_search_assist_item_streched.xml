@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.android.search.aviate.result.AviateSearchAssistItem android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ysa_search_gossip_item" />
+    <include layout="@layout/ysa_suggest_item_one_row" />
+</com.yahoo.mobile.client.android.search.aviate.result.AviateSearchAssistItem>

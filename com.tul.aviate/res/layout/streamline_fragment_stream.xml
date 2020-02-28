@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.yahoo.streamline.ui.StreamlineRecyclerView android:id="@id/timelineRecyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/onboarding" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/narwhal_nux_header" android:scaleType="centerCrop" android:layout_weight="0.4" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6">
+            <com.tul.aviator.ui.view.AviateTextView android:textSize="26.0dip" android:textColor="#ff333333" android:paddingLeft="@dimen/narwhal_onboarding_left_padding" android:paddingTop="@dimen/narwhal_onboarding_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bored?" aviate:customFont="GothamSSm-Medium.otf" />
+            <com.tul.aviator.ui.view.AviateTextView android:textSize="18.0dip" android:textColor="#ff333333" android:paddingLeft="@dimen/narwhal_onboarding_left_padding" android:paddingTop="40.0dip" android:paddingRight="@dimen/narwhal_onboarding_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discover and read the best stories from the sources you love." android:lineSpacingExtra="4.0dip" aviate:customFont="GothamSSm-Book.otf" />
+            <com.tul.aviator.ui.view.AviateTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/get_started_button" android:background="@drawable/get_started_button_streamline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/narwhal_onboarding_left_padding" android:layout_marginTop="60.0dip" android:layout_marginRight="@dimen/narwhal_onboarding_left_padding" android:text="@string/streamline_setup_button_text" android:textAllCaps="true" aviate:customFont="GothamSSm-Medium.otf" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

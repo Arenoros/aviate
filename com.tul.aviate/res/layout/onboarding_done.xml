@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="0.0dip" style="@style/TourTip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:background="@drawable/clickable_bg" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/x_icon" android:tint="#ffddffdd" android:layout_alignParentRight="true" />
+    <com.tul.aviator.ui.view.AviateTextView android:gravity="center" android:id="@id/title" android:paddingTop="@dimen/card_basic_padding" android:text="@string/tip_done" style="@style/TourTipText" />
+    <Button android:id="@id/button" android:background="@drawable/clickable_white_bg" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/tip_share_homescreen" android:layout_below="@id/title" android:textAllCaps="false" />
+</RelativeLayout>

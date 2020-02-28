@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.aviate.android.cards.NewsDigestStoryView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="220.0dip" android:scaleType="centerCrop" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:id="@id/category" android:paddingLeft="@dimen/card_basic_padding" android:paddingRight="@dimen/card_basic_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l2_top_margin" style="@style/Cards.l2.Bold" />
+        <com.yahoo.cards.android.ui.TypefaceTextView android:ellipsize="end" android:id="@id/title" android:paddingLeft="@dimen/card_basic_padding" android:paddingRight="@dimen/card_basic_padding" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginTop="@dimen/l1_below_l2_top_margin" android:layout_marginBottom="@dimen/l1_bottom_margin" android:maxLines="2" android:minLines="2" android:singleLine="false" style="@style/Cards.l1" />
+    </LinearLayout>
+</com.yahoo.aviate.android.cards.NewsDigestStoryView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviate="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:src="@drawable/action_navigate" android:tint="?iconActionTint" style="@style/Aviate.QuickActionIcon" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="16.0sp" android:textColor="?spaceTextDark" android:ellipsize="end" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commute_text_margin_top" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon" aviate:customFont="GothamNarrSSm-Medium.otf" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="16.0sp" android:textColor="?spaceTextDark" android:ellipsize="end" android:id="@id/dest" android:paddingRight="@dimen/card_basic_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commute_text_margin_top" android:singleLine="true" android:layout_toRightOf="@id/time" aviate:customFont="GothamNarrSSm-Light.otf" />
+    <com.tul.aviator.ui.view.AviateTextView android:textSize="12.0sp" android:id="@id/traffic" android:paddingBottom="@dimen/commute_text_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/commute_traffic_margin_top" android:layout_toRightOf="@id/icon" android:layout_below="@id/time" aviate:customFont="GothamNarrSSm-Light.otf" />
+</RelativeLayout>

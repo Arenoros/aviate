@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/localCardLayout" android:background="@color/yssdk_white" android:layout_width="360.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/local_image" android:background="@color/yssdk_local_default_thumb_bg" android:layout_width="360.0dip" android:layout_height="265.0dip" android:src="@drawable/yssdk_local_list_default_icon" />
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="15.0dip" android:layout_width="328.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/yssdk_black" android:ellipsize="end" android:id="@id/local_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <com.yahoo.mobile.client.share.search.ui.view.RatingView android:id="@id/local_rating" android:layout_width="81.0dip" android:layout_height="15.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_below="@id/local_title" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/yssdk_black" android:id="@id/local_ratingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/local_rating" android:layout_below="@id/local_title" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/local_review_source" android:layout_width="44.0dip" android:layout_height="22.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/yssdk_yelp_logo" android:singleLine="true" android:layout_toRightOf="@id/local_ratingText" android:layout_below="@id/local_title" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/yssdk_black" android:id="@id/local_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/local_rating" />
+    </RelativeLayout>
+</LinearLayout>

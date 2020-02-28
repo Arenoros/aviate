@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/broadway_minicard_shadow" android:layout_width="150.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="150.0dip" android:scaleType="centerCrop" />
+    <com.yahoo.streamline.ui.cards.StreamlineCardCaption android:id="@id/caption" android:padding="@dimen/streamline_thumbnail_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+</LinearLayout>

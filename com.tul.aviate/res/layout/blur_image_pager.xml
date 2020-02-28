@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tul.aviator.ui.view.common.NestableViewPager android:id="@id/image_pager" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tul.aviator.ui.view.common.BarPageIndicator android:layout_gravity="bottom" android:id="@id/page_indicator" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="7.0dip" />
+    <com.tul.aviator.ui.view.AviateTextView android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/imageOverlayTextShadow" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" style="@style/Aviate.SpaceHeaderText" />
+</merge>

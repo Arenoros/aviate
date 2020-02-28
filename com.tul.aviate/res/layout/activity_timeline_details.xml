@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/timeline_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="@style/Timeline.Header">
+        <ImageButton android:layout_gravity="center|right|top" android:id="@id/menu_button" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:tint="@color/white" style="@style/AppTheme.CardSettingsButton" />
+        <com.tul.aviator.ui.view.AviateTextView android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/subscription_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:text="@string/streamline_subscribe_feed" style="@style/Timeline.Title" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
