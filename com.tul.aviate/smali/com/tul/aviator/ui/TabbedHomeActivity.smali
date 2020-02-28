@@ -939,10 +939,10 @@
     .line 803
     const/high16 v2, 0x30000000
 
-    #invoke-virtual {v0, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    # invoke-virtual {v0, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     .line 804
-    #invoke-virtual {p0, v0}, Lcom/tul/aviator/ui/TabbedHomeActivity;->startActivity(Landroid/content/Intent;)V
+    # invoke-virtual {p0, v0}, Lcom/tul/aviator/ui/TabbedHomeActivity;->startActivity(Landroid/content/Intent;)V
 
     .line 805
     const v0, 0x7f05001b

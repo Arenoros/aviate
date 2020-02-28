@@ -207,10 +207,10 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 138
-    iget-object v0, p0, Lcom/yahoo/aviate/android/lazyonboarding/LazyOnboardingLoadingActivity;->r:Landroid/widget/TextView;
+    # .line 138
+    # iget-object v0, p0, Lcom/yahoo/aviate/android/lazyonboarding/LazyOnboardingLoadingActivity;->r:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
+    # invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 139
     iget-object v0, p0, Lcom/yahoo/aviate/android/lazyonboarding/LazyOnboardingLoadingActivity;->s:Landroid/widget/TextView;
